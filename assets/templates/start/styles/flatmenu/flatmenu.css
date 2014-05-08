@@ -1,0 +1,202 @@
+/*
+Start MODx Evolution Responsive Template
+author: http://www.tattoocms.it/
+*/
+.menu{display:block;
+margin:0 auto;
+padding: 0 10px; 
+font-size: 16px;
+font-family: 'Open Sans', 'sans-serif';
+/*border: solid 1px #cccccc;*/
+  }
+  
+ul.menu{ 
+	/*background: #499bea;*/
+}
+     
+    .menu li{display: inline-block;
+    position: relative;
+    z-index:1000;
+
+}
+     
+    .menu li a {
+    text-decoration:none;
+    padding:3px 15px 5px;
+    margin-bottom: 2px;
+    margin-right:4px;
+    display:block;
+   color:#499bea;
+   background:#FFFFF;
+  	border:1px solid #fff; 
+   border-top: 3px solid #fff; 
+   border-radius: 6px;
+   background-clip: content-box;
+
+	   /* text-shadow: 1px 1px 1px #dedede;*/
+   
+    }
+
+
+.menu li a:hover, .menu li:hover > a
+  {
+  color:#f07a45;
+    border-top: 3px solid #499bea; 
+
+}
+.menu li.active > a
+  {
+  color:#FFFFFF;
+  border:1px solid #499bea; 
+  border-top: 3px solid #499bea;
+  background:#499bea; 
+
+}
+   
+    /* hide the second level menu */
+    .menu ul {
+    margin: 0;
+    padding: 0;
+    width: 160px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    background: #ffffff;
+    z-index: 100000;
+    border:1px solid #dedede; 
+    border-top: 3px solid #f07a45; 
+	-moz-border-radius:6px;
+	border-radius:6px;
+	-webkit-box-shadow:0 5px 3px -3px #C4C4C4;
+	-moz-box-shadow:0 5px 3px -3px #C4C4C4;
+	box-shadow:0 5px 3px -3px #C4C4C4; 
+    visibility:hidden;
+	opacity:0;
+	-webkit-transition:all 160ms linear 20ms;
+	-moz-transition:all 160ms linear 20ms;
+	-ms-transition:all 160ms linear 20ms;
+	-o-transition:all 160ms linear 20ms;
+	transition:all 160ms linear 20ms;
+
+    }
+     
+    /* display second level menu on hover */
+    .menu li:hover > ul{ display: block;
+     	visibility:visible;
+	opacity:0.9;
+}
+     /*row*/   
+    .menu ul li {display:block;
+    float: none;
+    background:none;
+    margin:0;
+    padding: 2px 0;
+    color: #f07a45;
+    }
+  
+    .menu ul li a {font-size:14px;
+    display:block;
+    color: #499bea;
+    text-shadow: 1px 1px 1px rgba(200, 200, 200, 1);
+ background: #ffffff;
+ border: 0px; 
+  	-webkit-transition:margin 170ms ease-out 30ms;
+	-moz-transition:margin 170ms ease-out 30ms;
+	-ms-transition:margin 170ms ease-out 30ms;
+	-o-transition:margin 170ms ease-out 30ms;
+	transition:margin 170ms ease-out 30ms;
+
+
+	}
+     
+    .menu ul li a:hover, .menu ul li:hover > a{
+    background: #fdfdfd;
+    color: #f07a45;
+    margin-left:7px;
+     border: 0px; 
+    }
+
+    .menu ul li.active a{
+    background: #fdfdfd;
+    border: 0;
+    border-left: 3px solid #ffffff;
+    color: #f07a45;
+    }
+    /* change level 3 menu positions */
+    .menu ul ul {left: 149px;
+    top: 0px;
+    }
+/*******************MOBILE MENU***************/
+
+    .mobile-menu{display:none;
+    width:96%;
+    padding:11px;
+    background:#FFF;
+    color:#499bea;
+    text-transform:uppercase;
+    font-weight:600;
+    border:1px solid #FFF; 
+    border-top: 3px solid #499bea; 
+	-moz-border-radius:6px;
+	border-radius:6px;
+    }
+    .mobile-menu:hover{ 
+    border-top: 3px solid #f07a45; 
+    color:#f07a45;
+    text-decoration:none;
+    }
+    
+   @media (max-width: 768px) {
+     
+    .menu{display:none;}   
+    .mobile-menu{display:block;
+    margin-top:100px;}
+     
+    nav{margin:0;
+    background:none;}
+    
+     
+    .menu li{display:block;
+    margin:0;
+}
+     
+    .menu li a {background:#ffffff;
+    color:#499bea;
+        border-top:1px solid #e0e0e0;
+    }
+     
+    .menu li a:hover, .menu li:hover > a{
+    background: #fdfdfd;
+    color:#f07a45;
+    border-top:1px solid #499bea;
+
+   }
+          .menu li.active, .menu li.active a{
+          background: #fdfdfd;
+      color:#f07a45;
+      border:0;
+
+   }
+
+       .menu li.active a:hover, .menu li.active:hover > a{
+    background: #fdfdfd;
+    color:#f07a45;
+  
+   }
+
+     
+    /*level 2 and 3 - make same width as all items*/
+    .menu ul {display:block;
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+   visibility:visible;
+	opacity:1;
+     }
+     
+     
+    .menu ul ul {left:0;}
+     
+    }
+  /*end media queries*/
