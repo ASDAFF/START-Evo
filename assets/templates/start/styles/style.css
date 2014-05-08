@@ -19,22 +19,22 @@ a{color: #499bea; outline:none; text-decoration:none;}
 .fl_right{float:right;}
 img{width:auto; max-width:100%; height:auto; margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
 img.thumbnail {
-	border-radius: 5px;
+border-radius: 5px;
 }
 aside img.thumbnail {
 border-top: 3px solid #f07a45;
-	border-radius: 6px;
+border-radius: 6px;
 }
 i.sideicon {
-	float: left;
-	padding-right: 5px;
-	color: #f07a45;
+float: left;
+padding-right: 5px;
+color: #f07a45;
 }
 i.homeicon {
 display:block:
-	margin: 0 auto
-	padding: 5px;
-	color: #499bea;
+margin: 0 auto
+padding: 5px;
+color: #499bea;
 }
 .boxholder{padding: 5px; border: 1px solid #f0f0f0;  border-top: 3px solid #FF7F42; 
 	border-radius: 6px;}
@@ -77,20 +77,19 @@ float:left;
 width:200px;
 margin:0;
 padding:5px;
-    border:1px solid #dedede; 
-    border-top: 3px solid #499bea;               
-
+border:1px solid #dedede; 
+border-top: 3px solid #499bea;           
 }
 input#ajaxSearch_submit {
-	float:left;
-	margin:0 0 0 3px;
-	font-size:0.7em;
-	border-radius: 5px;
-	 border:1px solid #dedede; 
-    border-top: 3px solid #499bea; 
+float:left;
+margin:0 0 0 3px;
+font-size:0.7em;
+border-radius: 5px;
+border:1px solid #dedede; 
+border-top: 3px solid #499bea; 
 }
 input#ajaxSearch_submit:hover {
-	color:#FF7F42; border-top: 3px solid #FF7F42; 
+color:#FF7F42; border-top: 3px solid #FF7F42; 
 }
 #navigation {padding:0; margin: 0 auto; clear:both; word-wrap:normal; white-space:nowrap;}
 #header{padding:10px 0 0 0;}
@@ -116,7 +115,7 @@ input#ajaxSearch_submit:hover {
 #footer div{margin-bottom:0;}
 #copyright{padding:20px 20px; font-size:.85em;}
 #copyright p{margin:0; padding:0;}
-/*Ditto paginate*/
+/*Ditto paginati*/
 #ditto_pages {display:block; width:100%; text-align:center; clear:both; line-height:normal; margin-top:20px;margin-bottom:30px;}
 #ditto_pages .ditto_currentpage{border-radius: 5px; border: 1px solid #499bea;padding: 5px 10px;margin-right:3px;background-color:#499bea;color:#fff;font-size:14px;}
  .ditto_off{border-radius: 5px; border:1px solid #ccc;padding: 5px 10px;margin-right:3px;color:#ccc;font-size:14px;}
@@ -127,14 +126,14 @@ input#ajaxSearch_submit:hover {
 .footer_nav ul li{margin-top:12px; padding-top:12px; border-top:1px solid #333333;}
 .footer_nav ul li:first-child{margin-top:0; padding-top:0; border-top:none;}
 .scrollup {
-    background: url("images/gototop/icon_gototop3.png") no-repeat scroll 0 0 transparent;
-    bottom: 20px;
-    display: none;
-    height: 40px;
-    position: fixed;
-    right: 20px;
-    text-indent: -9999px;
-    width: 40px;
+background: url("images/gototop/icon_gototop3.png") no-repeat scroll 0 0 transparent;
+bottom: 20px;
+display: none;
+height: 40px;
+position: fixed;
+right: 20px;
+text-indent: -9999px;
+width: 40px;
 }
 /* -------------------------[ Forms ]--- */
 
@@ -250,14 +249,12 @@ input.submit{
 display:block; 
 margin:20px 0 0 140px}
 
-
-/*colors*/
+/*link hover colors*/
 
 /*header*/
 .row1 a:hover {color:inherit;}
 /*menu*/
-/*.row2 a:hover {color:#FF7F42;}*/
-/* main 6 sidebar*/
+/*.row2 a:hover */
 .row3 a:hover {color:#232323;}
 /* footer copyrights*/
 .row4 a:hover {color:#FFFFFF!important;}
@@ -265,6 +262,4 @@ margin:20px 0 0 140px}
 .row5 a:hover {color:#FFFFFF;}
 /* footer */
 .row6 a:hover {color:#FF7F42!important;}
-/*image caption news*/
-p.description a:hover {color:#FFFFFF!important;}
 
