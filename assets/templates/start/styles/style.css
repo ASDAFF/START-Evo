@@ -118,10 +118,10 @@ input#ajaxSearch_submit:hover {
 #copyright p{margin:0; padding:0;}
 /*Ditto paginate*/
 #ditto_pages {display:block; width:100%; text-align:center; clear:both; line-height:normal; margin-top:20px;margin-bottom:30px;}
-#ditto_pages .ditto_currentpage{border: 1px solid #e5e5e5;padding: 5px 10px;margin-right:3px;background-color:#383838;color:#fff;font-size:14px;}
- .ditto_off{border:1px solid #ccc;padding: 5px 10px;margin-right:3px;color:#ccc;font-size:14px;}
-#ditto_pages a, #ditto_pages a:link,#ditto_pages a:visited{border:1px solid #e5e5e5;padding: 5px 10px;margin-right:3px;margin-bottom:5px;text-decoration:none !important;color:#FFFFFF;font-size:14px;background-color:#EEEEEE; }
-#ditto_pages a:hover{background-color:#383838;color:#fff;}
+#ditto_pages .ditto_currentpage{border-radius: 5px; border: 1px solid #499bea;padding: 5px 10px;margin-right:3px;background-color:#499bea;color:#fff;font-size:14px;}
+ .ditto_off{border-radius: 5px; border:1px solid #ccc;padding: 5px 10px;margin-right:3px;color:#ccc;font-size:14px;}
+#ditto_pages a, #ditto_pages a:link,#ditto_pages a:visited{border:1px solid #499bea;padding: 5px 10px;margin-right:3px;margin-bottom:5px;text-decoration:none !important;color:#FFFFFF;font-size:14px;background-color:#EEEEEE; }
+#ditto_pages a:hover{background-color:#499bea;color:#fff;}
 /* Footer Navigation */
 .footer_nav{margin:0; padding:0;}
 .footer_nav ul li{margin-top:12px; padding-top:12px; border-top:1px solid #333333;}
