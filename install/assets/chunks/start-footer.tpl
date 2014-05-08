@@ -6,53 +6,32 @@
  * @category	chunk
  * @internal @modx_category start
  */
-<div class="one_quarter first">
-      <h2 class="footer_title">Footer Navigation</h2>
+<div class="one_third first">
+      <h2 class="footer_title">Links</h2>
       <nav class="footer_nav">
         <ul class="nospace">
-          <li><a href="#">Home Page</a></li>
-          <li><a href="#">Our Services</a></li>
-          <li><a href="#">Meet the Team</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Online Shop</a></li>
+          <li><a href="#">Link1</a></li>
+          <li><a href="#">Link2</a></li>
+          <li><a href="#">Link3</a></li>
+          <li><a href="#">Link4</a></li>
+          <li><a href="#">Link5</a></li>
         </ul>
       </nav>
     </div>
-    <div class="one_quarter">
-      <h2 class="footer_title">Footer Navigation</h2>
+    <div class="one_third">
+      <h2 class="footer_title">Links</h2>
       <nav class="footer_nav">
         <ul class="nospace">
-          <li><a href="#">Home Page</a></li>
-          <li><a href="#">Our Services</a></li>
-          <li><a href="#">Meet the Team</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Online Shop</a></li>
+          <li><a href="#">Link1</a></li>
+          <li><a href="#">Link2</a></li>
+          <li><a href="#">Link3</a></li>
+          <li><a href="#">Link4</a></li>
+          <li><a href="#">Link5</a></li>
         </ul>
       </nav>
     </div>
-    <div class="one_quarter">
-      <h2 class="footer_title">Footer Navigation</h2>
-      <nav class="footer_nav">
-        <ul class="nospace">
-          <li><a href="#">Home Page</a></li>
-          <li><a href="#">Our Services</a></li>
-          <li><a href="#">Meet the Team</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Online Shop</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="one_quarter">
-      <h2 class="footer_title">Contact Us</h2>
+    <div class="one_third">
+      <h2 class="footer_title">Social</h2>
        <nav class="footer_nav">
         <ul class="nospace">
       <li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
