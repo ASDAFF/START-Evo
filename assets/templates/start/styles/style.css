@@ -22,13 +22,13 @@ img.thumbnail {
 border-radius: 5px;
 }
 aside img.thumbnail {
-border-top: 3px solid #f07a45;
+border-top: 3px solid #FF7F42;
 border-radius: 6px;
 }
 i.sideicon {
 float: left;
 padding-right: 5px;
-color: #f07a45;
+color: #FF7F42;
 }
 i.homeicon {
 display:block:
@@ -50,10 +50,16 @@ div.wrapper, .wrapper100{display:block; width:100%; text-align:left; word-wrap:b
 -webkit-box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.10);
 -moz-box-shadow:    0px 3px 2px 0px rgba(50, 50, 50, 0.10);
 box-shadow:         0px 3px 2px 0px rgba(50, 50, 50, 0.10); }
-.row3{color:#282828; background-color:#FFFFFF;}
+.row3{color:#282828; background-color:#FFFFFF;
+-webkit-box-shadow: 0px -3px 4px 0px rgba(50, 50, 50, 0.10);
+-moz-box-shadow:    0px -3px 4px 0px rgba(50, 50, 50, 0.10);
+box-shadow:         0px -3px 4px 0px rgba(50, 50, 50, 0.10);}
 .row4{color:#ffffff; background-color:#499bea;}
 .row5{color:#666666; background-color:#FFFFFF; border-bottom:1px solid #E5E4E3;}
-.row6{color:#919191; background-color:#F5F5F5; border-bottom:1px solid #EEEEEE; border-top:3px solid #FF7F42; }
+.row6{color:#919191; background-color:#F5F5F5; border-bottom:1px solid #fefefe; border-top:2px solid #fefefe; 
+-webkit-box-shadow: 0px -3px 4px 0px rgba(50, 50, 50, 0.10);
+-moz-box-shadow:    0px -3px 4px 0px rgba(50, 50, 50, 0.10);
+box-shadow:         0px -3px 4px 0px rgba(50, 50, 50, 0.10);}
 
 body{font-family:Arial, Helvetica, sans-serif;}
 h1, h2, h3, h4, h5, h6{margin:0 0 30px 0;  line-height:normal; text-transform:capitalize;}
@@ -94,7 +100,7 @@ color:#FF7F42; border-top: 3px solid #FF7F42;
 #navigation {padding:0; margin: 0 auto; clear:both; word-wrap:normal; white-space:nowrap;}
 #header{padding:10px 0 0 0;}
 #header hgroup{display:block; float:left; width:auto; clear:right; border-top:0;}
-#header hgroup h1{ float: left; display:inline; margin:23px 0 0 0; font-weight:normal;font-size:1em; color:#FF7F42; font-size:1.8em; text-shadow: 1px 1px 1px #dedede;}
+#header hgroup h1{ float: left; display:inline; margin:23px 0 0 0; font-weight:normal;font-size:1em; color:#FF7F42; font-size:1.4em; text-shadow: 1px 1px 1px #dedede;}
 /*Content*/
 #container{padding:30px 10px; clear:both; font-size:1em; line-height:1.4em;}
 #container section{margin-bottom:50px;}
@@ -116,7 +122,8 @@ color:#FF7F42; border-top: 3px solid #FF7F42;
 #footer div{margin-bottom:0;}
 #copyright{padding:20px 20px; font-size:.85em;}
 #copyright p{margin:0; padding:0;}
-/*Ditto paginati*/
+#copyright a{color:#fff;}
+/*Ditto paginate*/
 #ditto_pages {display:block; width:100%; text-align:center; clear:both; line-height:normal; margin-top:20px;margin-bottom:30px;}
 #ditto_pages .ditto_currentpage{border-radius: 5px; border: 1px solid #499bea;padding: 5px 10px;margin-right:3px;background-color:#499bea;color:#fff;font-size:14px;}
  .ditto_off{border-radius: 5px; border:1px solid #ccc;padding: 5px 10px;margin-right:3px;color:#ccc;font-size:14px;}
@@ -136,7 +143,7 @@ right: 20px;
 text-indent: -9999px;
 width: 40px;
 }
-/* -------------------------[ Forms ]--- */
+/* -------------------------[ Forms and eforms]--- */
 
 form label{
 color: #499bea;
