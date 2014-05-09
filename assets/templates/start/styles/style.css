@@ -100,7 +100,7 @@ color:#FF7F42; border-top: 3px solid #FF7F42;
 #navigation {padding:0; margin: 0 auto; clear:both; word-wrap:normal; white-space:nowrap;}
 #header{padding:10px 0 0 0;}
 #header hgroup{display:block; float:left; width:auto; clear:right; border-top:0;}
-#header hgroup h1{ float: left; display:inline; margin:23px 0 0 0; font-weight:normal;font-size:1em; color:#FF7F42; font-size:1.4em; text-shadow: 1px 1px 1px #dedede;}
+#header hgroup h2{ float: left; display:inline; margin:23px 0 0 0; font-weight:normal;font-size:1em; color:#FF7F42; font-size:1.4em; text-shadow: 1px 1px 1px #dedede;}
 /*Content*/
 #container{padding:30px 10px; clear:both; font-size:1em; line-height:1.4em;}
 #container section{margin-bottom:50px;}
