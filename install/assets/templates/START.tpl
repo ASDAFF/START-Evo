@@ -4,7 +4,9 @@
  * START - MODx Evolution Responsive Template
  *
  * @category	template
+ * @version     1.0
  * @internal	@modx_category start
+ * @internal    @installset base, sample
  */
 <!DOCTYPE html>
 <html lang="it" dir="ltr">

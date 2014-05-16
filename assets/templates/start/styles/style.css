@@ -45,8 +45,8 @@ address, article, aside, figcaption, figure, footer, header, hgroup, nav, sectio
 /* Layout*/
 div.wrapper, .wrapper100{display:block; width:100%; text-align:left; word-wrap:break-word;}
 .row0{}
-.row1{color:#282828; background-color:#FEFEFE; border-radius: 6px 6px 0 0;}
-.row2{color:#282828; background-color:#FFFFFF; border-bottom:1px solid #fefefe; margin-bottom:10px; 
+.row1{color:#919191; background-color:#FEFEFE; border-radius: 6px 6px 0 0;}
+.row2{color:#919191; background-color:#FFFFFF; border-bottom:1px solid #fefefe; margin-bottom:10px; 
 -webkit-box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.10);
 -moz-box-shadow:    0px 3px 2px 0px rgba(50, 50, 50, 0.10);
 box-shadow:         0px 3px 2px 0px rgba(50, 50, 50, 0.10); }
@@ -55,7 +55,7 @@ box-shadow:         0px 3px 2px 0px rgba(50, 50, 50, 0.10); }
 -moz-box-shadow:    0px -3px 4px 0px rgba(50, 50, 50, 0.10);
 box-shadow:         0px -3px 4px 0px rgba(50, 50, 50, 0.10);}
 .row4{color:#ffffff; background-color:#499bea;}
-.row5{color:#666666; background-color:#FFFFFF; border-bottom:1px solid #E5E4E3;}
+.row5{color:#919191; background-color:#FFFFFF; border-bottom:1px solid #E5E4E3;}
 .row6{color:#919191; background-color:#F5F5F5; border-bottom:1px solid #fefefe; border-top:2px solid #fefefe; 
 -webkit-box-shadow: 0px -3px 4px 0px rgba(50, 50, 50, 0.10);
 -moz-box-shadow:    0px -3px 4px 0px rgba(50, 50, 50, 0.10);
@@ -102,7 +102,7 @@ color:#FF7F42; border-top: 3px solid #FF7F42;
 #header hgroup{display:block; float:left; width:auto; clear:right; border-top:0;}
 #header hgroup h2{ float: left; display:inline; margin:23px 0 0 0; font-weight:normal;font-size:1em; color:#FF7F42; font-size:1.4em; text-shadow: 1px 1px 1px #dedede;}
 /*Content*/
-#container{padding:30px 10px; clear:both; font-size:1em; line-height:1.4em;}
+#container{padding:30px 15px; clear:both; font-size:1em; line-height:1.4em;}
 #container section{margin-bottom:50px;}
 #container section.last{margin-bottom:0;}
 .emphasise, #container .emphasise{font-size:2.8em; line-height:1.4em;}
