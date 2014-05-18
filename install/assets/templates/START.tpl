@@ -47,15 +47,16 @@
 {{start-FlatMenu}}
 </div>
 <div class="wrapper row0 stretched">
-[[if? &is=`[*id*]:is:1` &then=`@TPL:start-Flexslider` &else=`<div class="pad10"><h2><i class="fa fa-play-circle"></i> [*longtitle*]</h2></div>`]]
+[[if? &is=`[*id*]:is:1` &then=`@TPL:start-Flexslider` &else=`<div class="pad10"><h1><i class="fa fa-play-circle"></i> [*longtitle*]</h1></div>`]]
 </div>
 <!-- ##end slider## -->
 <!-- content -->
 <div class="wrapper row3">
   <div id="container">
-    <div id="homepage" class="clear">
+    <div id="content" class="clear">
       <div class="two_third first">
-        <div class="tree_third first">
+        <div class="tree_third first pad10">
+			[[if? &is=`[*id*]:is:1` &then=`<h1><i class="fa fa-play-circle"></i> [*longtitle*]</h1>` &else=``]]
 			[[if? &is=`[*parent*]:in:2,47` &then=`@TPL:start-Thumbpage` &else=``]]
 			[*content*]
         </div>
@@ -73,7 +74,7 @@
 </div>
 <!-- Footer -->
 <div class="wrapper row6">
-  <div id="footer" class="clear">
+  <div id="footer" class="clear pad20">
   <!-- Footer text -->
 {{start-footer}}
     <!-- Footer end -->
@@ -83,6 +84,7 @@
   <div id="copyright" class="clear">
  {{start-copyright}}
   </div>
+<a class="scrollup" href="#">Scroll</a>
 </div>
 <!-- Scripts -->
 [[if? &is=`[*id*]:is:1` &then=`@TPL:start-FlexSlider-linkjs`]]

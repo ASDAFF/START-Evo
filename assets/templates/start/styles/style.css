@@ -3,7 +3,7 @@ Start MODx Evolution Responsive Template
 author: http://www.tattoocms.it/
 */
 html{overflow-y:scroll;}
-body{margin:0; padding:0; font-size:14px; color:#919191; background-color:#F5F5F5;}
+body{margin:0; padding:0; font-size:15px; color:#919191; background-color:#F5F5F5;}
 body.boxed{color:#919191;  margin-top:20px;
 background-color:#F5F5F5;}
 .justify{text-align:justify;}
@@ -38,6 +38,19 @@ color: #499bea;
 }
 .boxholder{padding: 5px; border: 1px solid #f0f0f0;  border-top: 3px solid #FF7F42; 
 	border-radius: 6px;}
+.boxholder img, aside img.thumbnail{
+	-webkit-transition: all 1s ease;
+	-webkit-backface-visibility: hidden; /* Fix for transition flickering */
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.boxholder img:hover, aside img.thumbnail:hover {
+filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+filter: gray; /* IE6-9 */
+-webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
 .imgl{float:left; margin:0 15px 10px 0; clear:left;}
 .imgr{float:right; margin:0 0 10px 15px; clear:right;}
 /*HTML 5 Overrides*/
@@ -61,10 +74,16 @@ box-shadow:         0px -3px 4px 0px rgba(50, 50, 50, 0.10);}
 -moz-box-shadow:    0px -3px 4px 0px rgba(50, 50, 50, 0.10);
 box-shadow:         0px -3px 4px 0px rgba(50, 50, 50, 0.10);}
 
-body{font-family:Arial, Helvetica, sans-serif;}
-h1, h2, h3, h4, h5, h6{margin:0 0 30px 0;  line-height:normal; text-transform:capitalize;}
-h1 {margin:0 0 20px 0; font-size:2.2em; font-family: 'Metrophobic', sans-serif; font-weight:normal; line-height:normal; text-transform:capitalize; color: #499bea;}
-h2 {color: #499bea; font-size:1.8em; font-family: 'Metrophobic', sans-serif; font-weight:normal;}
+body{font-family:'Open Sans', sans-serif; font-weight: 400;}
+h1, h2, h3, h4, h5, h6{margin:0 0 30px 0; text-transform:capitalize;}
+h1 {margin:0 0 20px 0; font-size:2.2em; font-family: 'Metrophobic', sans-serif; font-weight: 400; color: #499bea;
+-webkit-text-stroke-width: .4px;
+-webkit-text-stroke-color: #499bea;
+-webkit-font-smoothing:antialiased;}
+h2 {color: #499bea; font-size:1.8em; font-family: 'Metrophobic', sans-serif; font-weight: 400; 
+-webkit-text-stroke-width: .3px;
+-webkit-text-stroke-color: #499bea;
+-webkit-font-smoothing:antialiased;}
 h3 {color: #FF7F42; font-size:1.6em; font-family: 'Metrophobic', sans-serif; font-weight:normal;}
 h4 {color: #86c3df; font-size:1.4em; font-family: 'Open Sans', sans-serif; font-weight:normal;}
 h5 {color: #77b034; font-size:1.2em; font-family: 'Open Sans', sans-serif; font-weight:normal;}
@@ -78,29 +97,32 @@ padding:5px 0 8px 0;}
 float:right;
 margin-right:60px;
 padding:5px 0 8px 20px;}
-input#ajaxSearch_input {
+#ajaxSearch_input {
 float:left;
 width:200px;
 margin:0;
 padding:5px;
+font-size:0.7em;
+color: #499bea;
 border:1px solid #dedede; 
 border-top: 3px solid #499bea;           
 }
-input#ajaxSearch_submit {
+#ajaxSearch_submit {
 float:left;
 margin:0 0 0 3px;
-font-size:0.7em;
-border-radius: 5px;
+padding:12px;
 border:1px solid #dedede; 
 border-top: 3px solid #499bea; 
+border-radius: 5px;
 }
-input#ajaxSearch_submit:hover {
+
+#ajaxSearch_submit:hover {
 color:#FF7F42; border-top: 3px solid #FF7F42; 
 }
 #navigation {padding:0; margin: 0 auto; clear:both; word-wrap:normal; white-space:nowrap;}
 #header{padding:10px 0 0 0;}
 #header hgroup{display:block; float:left; width:auto; clear:right; border-top:0;}
-#header hgroup h2{ float: left; display:inline; margin:23px 0 0 0; font-weight:normal;font-size:1em; color:#FF7F42; font-size:1.4em; text-shadow: 1px 1px 1px #dedede;}
+#header hgroup h2{ float: left; display:inline; margin:23px 0 0 0; font-weight:normal;font-size:1em; color:#FF7F42; font-size:1.4em; text-shadow: 1px 1px 1px #dedede; -webkit-text-stroke-color: #FF7F42;}
 /*Content*/
 #container{padding:30px 15px; clear:both; font-size:1em; line-height:1.4em;}
 #container section{margin-bottom:50px;}
@@ -134,7 +156,7 @@ color:#FF7F42; border-top: 3px solid #FF7F42;
 .footer_nav ul li{margin-top:12px; padding-top:12px; border-top:1px solid #333333;}
 .footer_nav ul li:first-child{margin-top:0; padding-top:0; border-top:none;}
 .scrollup {
-background: url("images/gototop/icon_gototop3.png") no-repeat scroll 0 0 transparent;
+background: url("images/gototop/icon_gototop.png") no-repeat scroll 0 0 transparent;
 bottom: 20px;
 display: none;
 height: 40px;
@@ -143,119 +165,7 @@ right: 20px;
 text-indent: -9999px;
 width: 40px;
 }
-/* -------------------------[ Forms and eforms]--- */
 
-form label{
-color: #499bea;
-font-size:16px; 
-display:inline; 
-cursor:pointer}
-
-fieldset{
-border:none}
-
-input, select, textarea, option, optgroup, td{
-font:inherit; 
-color:inherit}
-
-form select{
-vertical-align:middle; 
-margin:0 0 5px; 
-font-family:inherit; 
-display:inline-block; 
-outline:0; 
-padding:5px 6px; 
-border:1px solid #ccc; 
-background:#fff; 
-color:#444; 
-text-decoration:none; 
--webkit-box-sizing:content-box; 
--moz-box-sizing:content-box; 
--ms-box-sizing:content-box; 
--o-box-sizing:content-box; 
-box-sizing:content-box; 
--webkit-border-radius:4px; 
--moz-border-radius:4px; 
--ms-border-radius:4px; 
--o-border-radius:4px; 
-border-radius:4px}
-
-form [type=text], form input[type=password], form textarea{
-background:#fff; 
-border:1px solid #ccc; 
-padding:5px 6px; 
-margin:0 2px 0 0; 
-font-size:10pt; 
-font-family:inherit; 
-vertical-align:baseline; 
--moz-border-radius:3px; 
--webkit-border-radius:3px; 
--ms-border-radius:3px; 
--o-border-radius:3px; 
-border-radius:3px; 
-}
-
-form select:focus, 
-form input[type=text]:focus, 
-form textarea:focus{
-border:1px solid #499bea}
-
-input.checkbox, input.radio, input.submit, input.button, input[type="checkbox"], input[type="radio"], input[type="submit"], input[type="button"]{
-height:auto!important; 
-width:auto!important; 
-cursor:pointer; 
-cursor:hand}
-
-.form{
-padding:15px; 
-border:solid 1px #ddd}
-
-form input.hidden{
-display:none!important; 
-position:absolute}
-
-.form input, .form textarea{
-display:inline-block; 
-float:left; 
-vertical-align:middle; 
-background:#FFF}
-
-.form label{
-padding-right:20px; 
-text-align:right; 
-width:110px}
-
-input[type="check"]{
-display:inline;  
-vertical-align:middle; 
-background:#FFF}
-
-
-form textarea{
-clear: left;
-height:150px; 
-width:90%; 
-line-height:1.5}
-input[type="text"]{
-clear: left;
-width:90%; 
-line-height:1.5}
-
-.form legend{
-color:#499bea; 
-font-weight:700; 
-padding:5px}
-
-.form select, input[type="checkbox"], input[type="radio"]{
-display:inline; 
-float:left}
-
-.form br{
-clear:both}
-
-input.submit{
-display:block; 
-margin:20px 0 0 140px}
 
 /*link hover colors*/
 

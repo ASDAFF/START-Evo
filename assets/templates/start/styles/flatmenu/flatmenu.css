@@ -4,7 +4,7 @@ author: http://www.tattoocms.it/
 */
 .menu{display:block;
 margin:0 auto;
-padding: 0 5px; 
+padding: 3px 5px 0 5px; 
 font-size: 16px;
 font-family: 'Open Sans', 'sans-serif';
 /*border: solid 1px #cccccc;*/
@@ -32,6 +32,11 @@ ul.menu{
    border-top: 3px solid #fff; 
    border-radius: 6px;
    background-clip: content-box;
+  	-webkit-transition:all 170ms ease-out 30ms;
+	-moz-transition:all 170ms ease-out 30ms;
+	-ms-transition:all 170ms ease-out 30ms;
+	-o-transition:all 170ms ease-out 30ms;
+	transition:all 170ms ease-out 30ms;
 
 	   /* text-shadow: 1px 1px 1px #dedede;*/
    
@@ -59,7 +64,7 @@ ul.menu{
     padding: 0;
     width: 160px;
     position: absolute;
-    top: 40px;
+    top: 37px;
     left: 0px;
     background: #ffffff;
     z-index: 100000;
@@ -70,13 +75,9 @@ ul.menu{
 	-webkit-box-shadow:0 5px 3px -3px #C4C4C4;
 	-moz-box-shadow:0 5px 3px -3px #C4C4C4;
 	box-shadow:0 5px 3px -3px #C4C4C4; 
-    visibility:hidden;
-	opacity:0;
-	-webkit-transition:all 160ms linear 20ms;
-	-moz-transition:all 160ms linear 20ms;
-	-ms-transition:all 160ms linear 20ms;
-	-o-transition:all 160ms linear 20ms;
-	transition:all 160ms linear 20ms;
+	z-index: 100000;
+	display: none;
+
 
     }
      
@@ -84,6 +85,11 @@ ul.menu{
     .menu li:hover > ul{ display: block;
      	visibility:visible;
 	opacity:0.9;
+}
+    .menu li:focus > ul { display: block;
+        	visibility:visible;
+	opacity:0.9;
+
 }
      /*row*/   
     .menu ul li {display:block;
@@ -105,8 +111,6 @@ ul.menu{
 	-ms-transition:margin 170ms ease-out 30ms;
 	-o-transition:margin 170ms ease-out 30ms;
 	transition:margin 170ms ease-out 30ms;
-
-
 	}
      
     .menu ul li a:hover, .menu ul li:hover > a{
@@ -137,20 +141,22 @@ ul.menu{
     font-weight:600;
     border:1px solid #FFF; 
     border-top: 3px solid #499bea; 
+    border-bottom: 3px solid #f0f0f0; 
 	-moz-border-radius:6px;
 	border-radius:6px;
     }
     .mobile-menu:hover{ 
     border-top: 3px solid #f07a45; 
+    border-bottom: 3px solid #e4e4e4; 
     color:#f07a45;
     text-decoration:none;
     }
     
-   @media (max-width: 768px) {
+   @media (max-width: 800px) {
      
     .menu{display:none;}   
     .mobile-menu{display:block;
-    margin-top:100px;}
+    margin-top:0px;}
      
     nav{margin:0;
     background:none;}
@@ -162,29 +168,37 @@ ul.menu{
      
     .menu li a {background:#ffffff;
     color:#499bea;
-        border-top:1px solid #e0e0e0;
+        border-top:0px solid #e0e0e0;
+    border-bottom:1px solid #e0e0e0;
+    -moz-border-radius:0;
+	 border-radius:0;
     }
      
     .menu li a:hover, .menu li:hover > a{
-    background: #fdfdfd;
+    background: #f9f9f9;
     color:#f07a45;
-    border-top:1px solid #499bea;
+       border-top:0px;
 
    }
-          .menu li.active, .menu li.active a{
-          background: #fdfdfd;
+             .menu li.active a{
       color:#f07a45;
+      background: #f9f9f9;
       border:0;
+   }
+          .menu li.active{
+      color:#f07a45;
+      background: #fdfdfd;
+  
+      border-bottom:1px solid #e0e0e0;
 
    }
 
        .menu li.active a:hover, .menu li.active:hover > a{
     background: #fdfdfd;
     color:#f07a45;
-  
-   }
 
-     
+   }
+    
     /*level 2 and 3 - make same width as all items*/
     .menu ul {display:block;
     position:relative;
@@ -193,6 +207,9 @@ ul.menu{
     width:100%;
    visibility:visible;
 	opacity:1;
+	border:0;
+	padding-left:12px;
+	border-bottom:1px solid #e0e0e0;
      }
      
      
