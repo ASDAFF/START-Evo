@@ -101,23 +101,22 @@ padding:5px 0 8px 20px;}
 float:left;
 width:200px;
 margin:0;
-padding:5px;
-font-size:0.7em;
-color: #499bea;
+padding:2px 7px;
 border:1px solid #dedede; 
-border-top: 3px solid #499bea;           
+border-top: 3px solid #499bea;               
+border-radius: 5px;
 }
 #ajaxSearch_submit {
 float:left;
+font-size:15px;
 margin:0 0 0 3px;
-padding:12px;
+padding:0 5px 2px;
+border-radius: 5px;
 border:1px solid #dedede; 
 border-top: 3px solid #499bea; 
-border-radius: 5px;
 }
-
 #ajaxSearch_submit:hover {
-color:#FF7F42; border-top: 3px solid #FF7F42; 
+	color:#FF7F42; border-top: 3px solid #FF7F42; 
 }
 #navigation {padding:0; margin: 0 auto; clear:both; word-wrap:normal; white-space:nowrap;}
 #header{padding:10px 0 0 0;}

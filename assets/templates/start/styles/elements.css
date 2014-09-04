@@ -8,21 +8,15 @@ legend{display:none;}
 form{display:block; width:100%;}
 #respond form label, form textarea{margin-bottom:15px;}
 form textarea{overflow:auto;}
-/*form div, form p{margin:0; padding:0;}*/
 
 form label{
 color: #499bea;
-font-size:16px; 
 display:inline; 
 cursor:pointer}
-
-fieldset{
-border:none}
-
+fieldset{border:none}
 input, select, textarea, option, optgroup, td{
 font:inherit; 
 color:inherit}
-
 form select{
 vertical-align:middle; 
 margin:0 0 5px; 
@@ -48,10 +42,8 @@ border-radius:4px}
 form input, form textarea{
 background:#fff; 
 border:1px solid #ccc; 
-padding:5px 6px; 
 margin:0 2px 0 0; 
-font-size:15pt; 
-font-family:inherit; 
+padding:2px 7px;
 vertical-align:baseline; 
 -moz-border-radius:4px; 
 -webkit-border-radius:4px; 
@@ -59,7 +51,6 @@ vertical-align:baseline;
 -o-border-radius:4px; 
 border-radius:4px; 
 }
-
 form select:focus, 
 form input[type=text]:focus, 
 form textarea:focus{
@@ -94,7 +85,6 @@ input[type="check"]{
 display:inline;  
 vertical-align:middle; 
 background:#FFF}
-
 
 form textarea{
 clear: left;
@@ -178,11 +168,11 @@ margin:20px 0 0 140px}
 
 /* Buttons */
 
-.button{display:inline-block; border:0px solid; font-weight:bold; text-transform:uppercase; border-radius:4px;}
+.button{display:inline-block; border:0px solid; text-transform:uppercase; border-radius:4px; margin:2px}
 
 .button.small{font-size:.9em; padding:6px 15px 5px 15px;}
 .button.medium{font-size:1.1em; padding:10px 20px 9px 20px;}
-.button.large{font-size:1.4em; font-weight:normal; padding:18px 20px 17px 20px;}
+.button.large{font-size:1.4em; padding:18px 20px 17px 20px;}
 .button.blue{color:#FFFFFF; background-color:#499bea;}
 .button.blue:hover{color:#FFFFFF; background-color:#FF7F42;}
 .button.green{color:#FFFFFF; background-color:#C0E079;}
