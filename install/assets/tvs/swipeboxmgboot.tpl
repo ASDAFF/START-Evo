@@ -1,7 +1,7 @@
 /**
  * swipeboxmgboot
  *
- * multiTV for swipebox mini Gallery  for bootstrap themes
+ * multiTV for swipebox mini Gallery for bootstrap themes
  *
  * @author      tattoocms.it
  * @category	tv
@@ -12,5 +12,5 @@
  * @internal    @input_default
  * @internal	@output_widget
  * @internal	@output_widget_params
- * @internal    @template_assignments
+ * @internal    @template_assignments StartPage
  */

@@ -41,7 +41,7 @@
 
 	</div></div>
 	<div class="col-sm-10">
-		<input type="submit" name="contact" id="cfContact" class="btn btn-default" value="Invia" />
+		<input type="submit" name="contact" id="cfContact" class="btn btn-default" value="Send" />
 	</div>
 </div>
 
