@@ -7,9 +7,9 @@
  * @internal @modx_category Start
  */
 <!--Sidebar -->
-<aside class="[+CRClass+]">
+<aside class="right-sidebar col-md-12 [+CRClass+]">
 		<h3>Start Right Sidebar</h3>
-<div class="widget">	
+<div class="widget">
 <h3>News</h3>
 [[Ditto? &parents=`2` &display=`2` &tpl=`Start-news-sidebar-small` &paginate=`0` &extenders=`summary,dateFilter`]]
 
@@ -30,6 +30,6 @@
 <h3>Thumbnails</h3>
 
 <i class="fa fa-picture-o fa-4x fa-fw sideicon"></i><p>Thumbnails with Lightbox and PhpThumb</p>
-</div>			
+</div>
 </aside>
 	<!-- End Sidebar-->
