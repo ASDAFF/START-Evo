@@ -1,7 +1,7 @@
 /**
- * Start-ditto_blog
+ * Start-ditto-blog
  *
- * Blog Template
+ * Start Ditto Blog Template type 2
  *
  * @category	chunk
  * @internal @modx_category Start

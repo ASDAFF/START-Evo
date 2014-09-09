@@ -11,8 +11,7 @@
 <link href="assets/templates/start/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="assets/templates/start/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 <link href="assets/templates/start/css/main.css" rel="stylesheet">
-[[if? &is=`[*id*]:>:1` &then=`@TPL:Start-swipeboxmgboot-css`]]
-    
+
     <!--[if lt IE 9]>
     <script src="assets/templates/start/js/html5shiv.js"></script>
     <script src="assets/templates/start/js/respond.min.js"></script>

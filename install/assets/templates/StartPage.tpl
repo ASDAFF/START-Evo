@@ -7,28 +7,29 @@
  * @internal	@modx_category Start
  */
 <!DOCTYPE html>
-<html lang="it">
+<html lang=" ">
 <head>
 	{{StartHead}}
+{{Start-swipeboxmgboot-css}}
 </head>
 <body>
 	{{StartHeader}}
          <div class="row grey">
       <div class="container">
-		  <div id="headliner" class="col-md-6 [+CoClass+]">
-
+		  <div id="headliner" class="[+CoClass+]">
 		  <h1>[*pagetitle*]</h1>
 		  </div>
 			 </div>
             </div>
 	         <section class="white">
       <div class="container">
-		   [+ColumnLContent+]
-		 <div class="col-md-6 [+CoClass+]">
+		  [+ColumnLContent+]
+		 <div class="[+CoClass+]">
 			[[if? &is=`[*Thumbnail*]:!empty` &then=`@TPL:Start-PostPic`]]
 		   [*content*]
 		  [[multiTV? &tvName=`swipeboxmgboot` &display=`all`]]
 		  </div>
+
 		  [+ColumnRContent+]
 			 </div>
             </section>
@@ -47,7 +48,6 @@
 	<script type="text/javascript" src="assets/templates/start/js/jquery.easing.1.3.js"></script>
     <script src="assets/templates/start/js/main.js"></script>
 [*CustomScript*]
-	{{Start-swipeboxmgboot-css}}
 {{Start-swipeboxmgboot-js}}
 </body>
 </html>
