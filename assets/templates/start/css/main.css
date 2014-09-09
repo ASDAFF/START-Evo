@@ -469,15 +469,7 @@ box-shadow:         0px 3px 2px 0px rgba(50, 50, 50, 0.20);
   -o-transition: 500ms;
   transition: 500ms;
 }
-
-
-.registration-form {
-  border: 0;
-  background-color: #fff;
-  padding: 20px;
-  display: inline-block;
-}
-#headliner {padding:50px 50px 20px 50px;}
+#headliner {padding-top: 50px; padding-bottom: 20px;}
 #headliner h1{padding:0px;margin:0;}
 #bottom {color: #232323;}
 #bottom a{color: #499bea;}
@@ -695,6 +687,12 @@ padding:5px 15px 0px 5px;
 margin-top:6px;
 margin-right:35px;
 }
+@media (max-width: 1201px) {
+#searchMenu  {
+display:none;
+}
+}
+
 #ajaxSearch_input {
 float:inline;
 width:200px;
