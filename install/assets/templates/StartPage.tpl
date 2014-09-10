@@ -47,7 +47,8 @@
     <script src="assets/templates/start/js/jquery.js"></script>
     <script src="assets/templates/start/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/templates/start/js/jquery.easing.1.3.js"></script>
-    <script src="assets/templates/start/js/main.js"></script>
+    <script src="assets/templates/start/js/wow/dist/wow.min.js"></script>
+    <script src="assets/templates/start/js/scripts.js"></script>
 [*CustomScript*]
 {{Start-swipeboxmgboot-js}}
 </body>

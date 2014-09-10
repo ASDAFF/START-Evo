@@ -26,33 +26,18 @@ body {
   font-weight: 300;
   font-size:16px;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-}
-strong {
-font-weight: 400;
-color: #232323;
-}
-a {
-  color: #499bea;
+h1,h2,h3,h4,h5,h6 {font-family: 'Open Sans', sans-serif; font-weight: 400;}
+strong {font-weight: 400;color: #232323;}
+a { color: #499bea;
   -webkit-transition: 300ms;
   -moz-transition: 300ms;
   -o-transition: 300ms;
-  transition: 300ms;
-}
-hr {
-  border-top: 1px solid #e5e5e5;
-  border-bottom: 1px solid #fff;
-}
-/* Sidebars*/
+  transition: 300ms;}
+hr { border-top: 1px solid #e5e5e5;  border-bottom: 1px solid #fff;}
 
-.right-sidebar, .left-sidebar {border-right: 1px solid #f5f5f5; border-left: 1px solid #f5f5f5;}
+/* Sidebars*/
+.right-sidebar, .left-sidebar {background:#FFFFFF; border-right: 1px solid #f5f5f5; border-left: 1px solid #f5f5f5;}
+.right-sidebar h2, .left-sidebar h2 {padding-left:10px;}
 
 
 a:hover,
@@ -330,8 +315,8 @@ box-shadow:         0px 3px 2px 0px rgba(50, 50, 50, 0.20);
 .navbar-inverse .navbar-nav > li > a {
  font-family: 'Bebas', sans-serif;
   text-transform: uppercase;
-  padding: 5px 9px 5px 9px;
-  margin-right: 8px;
+  padding: 5px 10px 5px 10px;
+  margin-right: 12px;
   color: #4994cd;
   font-size: 22px;
   font-weight: 400;
@@ -371,18 +356,18 @@ box-shadow:         0px 3px 2px 0px rgba(50, 50, 50, 0.20);
   border-radius: 6px;
 }
 .navbar-inverse .navbar-nav .dropdown-menu {
-  background: #ffffff;
- border:1px solid #dedede; 
-    border-top: 3px solid #f07a45; 
-	-moz-border-radius:6px;
-	border-radius:6px;
-	-webkit-box-shadow:0 5px 3px -3px #C4C4C4;
-	-moz-box-shadow:0 5px 3px -3px #C4C4C4;
-	box-shadow:0 5px 3px -3px #C4C4C4; 
-  padding: 0;
-  margin-top: 7px;
-  min-width: 230px;
-  max-width: 98%;
+background: #ffffff;
+border:1px solid #dedede; 
+border-top: 3px solid #f07a45; 
+-moz-border-radius:6px;
+border-radius:6px;
+-webkit-box-shadow:0 5px 3px -3px #C4C4C4;
+-moz-box-shadow:0 5px 3px -3px #C4C4C4;
+box-shadow:0 5px 3px -3px #C4C4C4; 
+padding: 5px;
+margin-top: 9px;
+min-width: 230px;
+max-width: 98%;
 }
 .navbar-inverse .navbar-nav .dropdown-menu > li > a {
   font-size: 16px;
@@ -480,9 +465,10 @@ box-shadow:         0px 3px 2px 0px rgba(50, 50, 50, 0.20);
   -o-transition: 500ms;
   transition: 500ms;
 }
-#headliner {padding-top: 50px; padding-bottom: 20px;}
+#headliner {padding-top: 50px; padding-bottom: 0px;}
 #headliner h1{padding:0px;margin:0;}
 .breadcrumb {
+background:transparent;
 padding-top: 10px;
 text-align: right;
 font-size: 14px;

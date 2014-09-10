@@ -7,7 +7,7 @@
  * @internal	@modx_category Start
  */
 <!DOCTYPE html>
-<html lang="it">
+<html lang="eng">
 <head>
 {{StartHead}}
 </head>
@@ -16,9 +16,14 @@
          <!-- slider -->
          <section class="grey">
       <div class="container  no-padding">
-      <div class="col-lg-12">
+      	  [+ColumnLContent+]
+		  [+ColumnL2Content+]
+        <div class="[+CoClass+]">
 		   [[multiTV? &tvName=`nivoslider` &display=`all`]]
+			[[if? &is=`[*HideContent*]:is:yes` &then=`` &else=`@TPL:StartHomeContent`]]
 		  </div>
+		  [+ColumnR2Content+]
+		  [+ColumnRContent+]
 			 </div>
             </section>
       <!--end slider-->
@@ -31,11 +36,12 @@
             </div>
         </div>
     </footer>
-			<a class="scrollup" href="#">Scroll</a> 
-    <script src="assets/templates/start/js/jquery.js"></script>
+			<a class="scrollup" href="#">Scroll</a>
+    <script src="assets/templates/start/js/jquery.min.js"></script>
     <script src="assets/templates/start/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/templates/start/js/jquery.easing.1.3.js"></script>
-    <script src="assets/templates/start/js/main.js"></script>
+	<script src="assets/templates/start/js/wow/dist/wow.min.js"></script>
+    <script src="assets/templates/start/js/scripts.js"></script>
 	{{Start-nivoslider-jscss}}
 	[*CustomScript*]
 </body>

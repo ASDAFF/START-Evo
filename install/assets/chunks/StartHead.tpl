@@ -11,6 +11,7 @@
 <link href="assets/templates/start/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="assets/templates/start/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 <link href="assets/templates/start/css/main.css" rel="stylesheet">
+<link href="assets/templates/start/js/wow/libs/animate.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
     <script src="assets/templates/start/js/html5shiv.js"></script>

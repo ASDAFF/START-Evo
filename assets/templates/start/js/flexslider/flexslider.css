@@ -92,8 +92,8 @@ html[xmlns] .slides {display: block;}
 
 .flex-caption h2 {
 color:#FFFFFF;
-	font-size: 2em; /* 20px */
-	line-height: 1.3em; /* 26px/20px */
+	font-size: 1.9em; 
+	line-height: 1.2em; /* 26px/20px */
 	margin: 0px 0px 0px 0px;
    padding: 5px 10px;	
 	font-weight:400;
@@ -144,7 +144,7 @@ text-shadow:1px 1px 1px #FFF;
 	display: block;
 	width: 27px; 
 	height: 27px; 
-	background: #499bea url(images/arrows.png);
+	background: #499bea url(../images/slider/arrows.png);
 	background-repeat: no-repeat;
 	cursor: pointer; 
 	text-indent: -999em;
@@ -202,6 +202,8 @@ text-shadow:1px 1px 1px #FFF;
 @media screen and (max-width: 860px) {
   .flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
   .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
+  .flex-caption h2 {	font-size: 1em; line-height: 0.8 em;}
+.flex-caption p {	font-size:0.8em;}
 }
 
 @media screen and (max-width: 460px) {

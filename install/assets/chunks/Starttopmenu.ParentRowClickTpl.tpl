@@ -1,7 +1,7 @@
 /**
- * Starttopmenu.ParentRowTpl
+ * Starttopmenu.ParentRowClickTpl
  *
- * topmenu ParentRowTpl
+ * topmenu ParentRowTpl - open submenu on click
  *
  * @category	chunk
  * @internal @modx_category StartTopMenu
