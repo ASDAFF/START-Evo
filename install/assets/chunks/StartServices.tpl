@@ -9,12 +9,10 @@
 <section id="services" class="blue">
         <div class="container">
             <div class="row">
-                              <!--/.col-sm-6-->
 
                 <div class="col-lg-12">
                     <div class="gap"></div>
-
-
+ 
         <div id="servicerow2" class="row">
                       <div class="col-md-3 col-xs-6">
                 <div class="center">
@@ -26,7 +24,7 @@
 
                        <div class="col-md-3 col-xs-6">
                 <div class="center">
-                    <p><a href="#"><i class="fa fa-line-chart icon-lg"></i></a></p>
+                    <p><a href="#"><i class="fa fa-sliders icon-lg"></i></a></p>
                     <h3>Nivo Slider Multitv</h3>
 
                 </div>
@@ -34,7 +32,7 @@
 
             <div class="col-md-3 col-xs-6">
                 <div class="center">
-                    <p><a href="#"><i class="fa fa-picture-o icon-lg"></i></a></p>
+                    <p><a href="#"><i class="fa fa-sliders icon-lg"></i></a></p>
                     <h3>Flex Slider Multitv</h3>
                 </div>
             </div>
@@ -47,12 +45,12 @@
              <div class="col-md-2 col-xs-6">
                        </div>
 
-                </div><!--/.col-md-4-->
+                </div>
             </div>
         </div>
 			<!--row2-->
 			<div class="row">
-   
+
 
                 <div class="col-lg-12">
                     <div class="gap"></div>
@@ -83,17 +81,16 @@
             </div>
             <div class="col-md-3 col-xs-6">
                 <div class="center">
-                    <p><a href="#"><i class="fa fa-picture-o icon-lg"></i></a></p>
-                    <h3>SwipeBox Mini Gallery</h3>
+                    <p><a href="#"><i class="fa fa-html5 icon-lg"></i></a></p>
+                    <h3>HTML5 & CSS3</h3>
                                  </div>
             </div>
              <div class="col-md-2 col-xs-6">
                        </div>
 
-                </div><!--/.col-md-4-->
+                </div>
             </div>
         </div>
-			
-			<!--end-->
+
 		</div>
     </section>
