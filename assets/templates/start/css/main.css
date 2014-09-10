@@ -176,20 +176,6 @@ box-shadow:         0px -3px 4px 0px rgba(50, 50, 50, 0.10);
   text-align: center;
 }
 
-ul.breadcrumb {
-  margin: 20px 0 0;
-  background: transparent;
-}
-ul.breadcrumb > li {
-  text-shadow: none;
-}
-ul.breadcrumb > li > a,
-ul.breadcrumb > li .divider {
-  color: #fff;
-}
-ul.breadcrumb > li.active {
-  color: rgba(255, 255, 255, 0.7);
-}
 ul.tag-cloud {
   list-style: none;
   padding: 0;
@@ -496,6 +482,17 @@ box-shadow:         0px 3px 2px 0px rgba(50, 50, 50, 0.20);
 }
 #headliner {padding-top: 50px; padding-bottom: 20px;}
 #headliner h1{padding:0px;margin:0;}
+.breadcrumb {
+padding-top: 10px;
+text-align: right;
+font-size: 14px;
+}
+.breadcrumb a {
+  color: #999;
+}
+ul.breadcrumb > li.active {
+  color: rgba(255, 255, 255, 0.7);
+}
 #bottom {color: #232323;}
 #bottom a{color: #499bea;}
 #bottom a:hover{color: #232323;}

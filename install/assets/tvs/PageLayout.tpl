@@ -7,9 +7,9 @@
  * @internal	@modx_category Start
  * @internal    @caption PageLayout
  * @internal    @input_type dropdown
- * @internal    @input_options FullWidthContent==FullWidthContent ||LeftSidebar==LeftSidebar||RightSidebar==RightSidebar||LeftRightSidebar==LeftRightSidebar
- * @internal    @input_default 
- * @internal	@output_widget 
- * @internal	@output_widget_params 
+ * @internal    @input_options FullWidthContent==FullWidthContent ||LeftSidebar==LeftSidebar||RightSidebar==RightSidebar||LeftRightSidebar==LeftRightSidebar||TwoLeftSidebar==TwoLeftSidebar||TwoRightSidebar==TwoRightSidebar||TwoLeftOneRight==TwoLeftOneRight||OneLeftTwoRight==OneLeftTwoRight
+ * @internal    @input_default RightSidebar
+ * @internal	@output_widget
+ * @internal	@output_widget_params
  * @internal    @template_assignments StartPage
  */

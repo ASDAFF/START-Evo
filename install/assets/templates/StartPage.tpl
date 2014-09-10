@@ -7,7 +7,7 @@
  * @internal	@modx_category Start
  */
 <!DOCTYPE html>
-<html lang=" ">
+<html lang="eng">
 <head>
 	{{StartHead}}
 {{Start-swipeboxmgboot-css}}
@@ -16,8 +16,9 @@
 	{{StartHeader}}
          <div class="row grey">
       <div class="container">
-		  <div id="headliner" class="[+CoClass+]">
-		  <h1>[*pagetitle*]</h1>
+
+		  <div id="headliner" class="col-lg-12">
+			  <div class="col-lg-8"> <h1>[*pagetitle*]</h1></div> <div class="breadcrumb col-lg-4">[!Breadcrumbs? &amp;currentAsLink=`1` &amp;homeCrumbTitle=`<i class="fa fa-home"></i>`!]</div>
 		  </div>
 			 </div>
             </div>
