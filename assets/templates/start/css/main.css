@@ -641,7 +641,7 @@ ul.social > li > a:hover {
 .blog-post .entry-meta > span a:hover {color: #ff7f42;}
 /* blog pagination*/ 
 ul.pagination > li > a {
-  border: 0;
+  border: 1px;
 }
 ul.pagination > li.active > a,
 ul.pagination > li:hover > a {
