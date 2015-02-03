@@ -19,6 +19,7 @@
   ([!Jot?&docid=`[+id+]`&action=`count-comments`!])</a></span>
                             </div>
 <p>[!DynamicDescription? &descriptionTV=`MetaDescription` &id=`[+id+]` &maxWordCount=`20`!]</p>
-<a class="btn btn-primary" href="[~[+id+]~]">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+<a class="btn btn-primary" href="[~[+id+]~]">Read More <i class="fa fa-angle-right"></i>
+</a>
 </div>
 </div>

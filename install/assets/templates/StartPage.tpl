@@ -10,7 +10,7 @@
 <html lang="eng">
 <head>
 	{{StartHead}}
-{{Start-swipeboxmgboot-css}}
+{{Start-swipeboxmg-css}}
 </head>
 <body>
 	{{StartHeader}}
@@ -50,6 +50,6 @@
     <script src="assets/templates/start/js/wow/wow.min.js"></script>
     <script src="assets/templates/start/js/scripts.js"></script>
 [*CustomScript*]
-{{Start-swipeboxmgboot-js}}
+{{Start-swipeboxmg-js}}
 </body>
 </html>

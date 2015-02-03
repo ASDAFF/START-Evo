@@ -641,13 +641,32 @@ ul.social > li > a:hover {
 .blog-post .entry-meta > span a:hover {color: #ff7f42;}
 /* blog pagination*/ 
 ul.pagination > li > a {
-  border: 1px;
+  border: 1px solid #DDD;
+
 }
 ul.pagination > li.active > a,
 ul.pagination > li:hover > a {
   background-color: #499bea;
   color: #fff;
 }
+
+.pagination.custom > li > a, 
+.pagination.custom > li > span {
+   background-color: #FFFFFF;
+  border: 1px solid #DDD;
+   color: #777;
+}
+.pagination.custom > li > a:hover, 
+.pagination.custom > li > a:focus, 
+.pagination.custom > li > span:hover,
+.pagination.custom > li > span:focus,
+.pagination.custom > li.active > a,
+.pagination.custom > li.active > span {
+   background: #499bea;
+   border-color: #499bea; 
+    color: #FFF
+}
+
 textarea#message {
   padding: 10px 15px;
   height: 219px;
