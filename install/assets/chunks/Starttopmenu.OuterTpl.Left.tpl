@@ -1,7 +1,7 @@
 /**
- * Starttopmenu.OuterTpl
+ * Starttopmenu.OuterTpl.Left
  *
- * Starttopmenu.OuterTpl
+ * Starttopmenu.OuterTpl Left nav
  *
  * @category	chunk
  * @internal @modx_category StartTopMenu

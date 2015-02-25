@@ -21,7 +21,7 @@ author: http://www.tattoocms.it/
 body {
   padding-top: 80px;
   color: #666666;
-  background: #499bea;
+  background: #FFF;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size:16px;
@@ -38,7 +38,6 @@ hr { border-top: 1px solid #e5e5e5;  border-bottom: 1px solid #fff;}
 /* Sidebars*/
 .right-sidebar, .left-sidebar {background:#FFFFFF; border-right: 1px solid #f5f5f5; border-left: 1px solid #f5f5f5;}
 .right-sidebar h2, .left-sidebar h2 {padding-left:10px;}
-
 
 a:hover,
 a:focus {
@@ -292,27 +291,33 @@ blockquote.bq-green {
 margin: 0px 20px 2px 18px;
 }
 /* Nav bar*/
-.navbar-toggle{background-color:#499bea; border-color:#499bea;}
-
-.navbar-inverse {
+.navbar-toggle{background-color:#499bea; border-color:#499bea; color:#FFFFFF;}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #FFFFFF;
+  border-radius: 1px;
+}
+.navbar-custom {
 border:none;
   border-bottom: 4px solid #fefefe;
 -webkit-box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.20);
 -moz-box-shadow:    0px 3px 2px 0px rgba(50, 50, 50, 0.20);
 box-shadow:         0px 3px 2px 0px rgba(50, 50, 50, 0.20);
 }
-.navbar-inverse .navbar-brand {
+.navbar-custom .navbar-brand {
   font-family: 'Bebas', sans-serif;
   font-size: 36px;
   line-height: 50px;
   color: #fff;
   height:80px;
 }
-.navbar-inverse .navbar-nav {
+.navbar-custom .navbar-nav {
   margin-top: 0px;
  margin-left:20px;
 }
-.navbar-inverse .navbar-nav > li > a {
+.navbar-custom .navbar-nav > li > a {
  font-family: 'Bebas', sans-serif;
   text-transform: uppercase;
   padding: 5px 10px 5px 10px;
@@ -324,11 +329,11 @@ box-shadow:         0px 3px 2px 0px rgba(50, 50, 50, 0.20);
   border-top: 3px solid #FFF;
   border-radius: 6px;
 }
-.navbar-inverse .navbar-nav > li > a > i {
+.navbar-custom .navbar-nav > li > a > i {
   color: #ff7f42;
   font-size: 12px;
 }
-.navbar-inverse .navbar-nav > li > a:hover{
+.navbar-custom .navbar-nav > li > a:hover{
   background-color: #FFFFFF;
   color: #f07a45;
     border:1px solid #FFF;
@@ -336,9 +341,9 @@ box-shadow:         0px 3px 2px 0px rgba(50, 50, 50, 0.20);
   border-radius: 6px;
 }
 
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
-.navbar-inverse .navbar-nav > .active > a:focus
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus
 { 
   background-color: #499bea;
   border: 1px solid #499bea;
@@ -346,16 +351,16 @@ box-shadow:         0px 3px 2px 0px rgba(50, 50, 50, 0.20);
   color: #FFF;
   border-radius: 6px;
 }
-.navbar-inverse .navbar-nav > .open > a,
-.navbar-inverse .navbar-nav > .open > a:hover,
-.navbar-inverse .navbar-nav > .open > a:focus {
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
   background-color: #FFFFFF;
   color: #499bea;
   border:1px solid #FFF;
   border-top: 3px solid #499bea;
   border-radius: 6px;
 }
-.navbar-inverse .navbar-nav .dropdown-menu {
+.navbar-custom .navbar-nav .dropdown-menu {
 background: #ffffff;
 border:1px solid #dedede; 
 border-top: 3px solid #f07a45; 
@@ -369,7 +374,7 @@ margin-top: 9px;
 min-width: 230px;
 max-width: 98%;
 }
-.navbar-inverse .navbar-nav .dropdown-menu > li > a {
+.navbar-custom .navbar-nav .dropdown-menu > li > a {
   font-size: 16px;
    color: #499bea;
     text-shadow: 1px 1px 1px rgba(200, 200, 200, 1);
@@ -380,22 +385,22 @@ max-width: 98%;
 	-o-transition:margin 170ms ease-out 30ms;
 	transition:margin 170ms ease-out 30ms;
 }
-.navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
-.navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
-.navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
+.navbar-custom .navbar-nav .dropdown-menu > li:hover > a,
+.navbar-custom .navbar-nav .dropdown-menu > li:focus > a,
+.navbar-custom .navbar-nav .dropdown-menu > li.active > a {
     background: transparent;
     color: #f07a45;
     margin-left:7px;
      border: 0px; 
 }
-.navbar-inverse .navbar-nav .dropdown-menu > li:last-child > a {
+.navbar-custom .navbar-nav .dropdown-menu > li:last-child > a {
   border-radius: 0 0 3px 3px;
 }
-.navbar-inverse .navbar-nav .dropdown-menu > li.divider {
+.navbar-custom .navbar-nav .dropdown-menu > li.divider {
   background-color: rgba(0, 0, 0, 0.1);
 }
-.navbar-inverse .navbar-collapse,
-.navbar-inverse .navbar-form {
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
   border-top: 0;
 }
 /*compre nav*/ 
@@ -762,6 +767,28 @@ color: #666666;
 #ajaxSearch_submit:hover {
 	color:#FF7F42; border-top: 3px solid #FF7F42; 
 }
+/*Deviders*/
+.space{
+clear:both;
+margin: 30px 0;
+}
+.devider.devider-dotted {border-top: 2px dotted #eee;}
+.devider.devider-dashed {border-top: 2px dashed #eee;}
+.devider.devider-db {
+  height: 5px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.devider.devider-db-dashed {
+  height: 5px;
+  border-top: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd;
+}
+.devider.devider-db-dotted {
+  height: 5px;
+  border-top: 1px dotted #ddd;
+  border-bottom: 1px dotted #ddd;
+}
 /* Margins */
 .gap {margin-bottom: 50px;}
 .big-gap {margin-bottom: 100px;}
@@ -800,4 +827,6 @@ color: #666666;
 .padding-15 { padding:15px;}
 .padding-20 { padding:20px;}
 .padding-25 { padding:25px;}
+.padding-30 { padding:20px;}
+.padding-35 { padding:25px;}
 

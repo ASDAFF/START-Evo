@@ -12,4 +12,4 @@
  * @internal    @overwrite false
  */
 
-<link rel="stylesheet" type="text/css" href="/assets/templates/start/js/swipeboxmg/src/css/swipeboxmg.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="assets/templates/start/js/swipeboxmg/src/css/swipeboxmg.css" media="screen" />

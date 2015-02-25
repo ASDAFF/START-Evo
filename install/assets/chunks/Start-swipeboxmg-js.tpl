@@ -15,8 +15,7 @@
 <script type="text/javascript" src="assets/templates/start/js/swipeboxmg/src/js/jquery.swipebox.js"></script>
 
 <script type="text/javascript">
-$(function($) {
-
+$(function($) {   
 	$( '.zoomthumbnail' ).swipebox({
 useCSS : true, // false will force the use of jQuery for animations
 initialIndexOnArray: 0, // which image index to init when a array is passed

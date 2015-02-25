@@ -25,12 +25,13 @@
 	         <section class="white">
       <div class="container">
 		  [+ColumnLContent+]
+          [+ColumnL2Content+]
 		 <div class="[+CoClass+]">
 			[[if? &is=`[*Thumbnail*]:!empty` &then=`@TPL:Start-PostPic`]]
 		   [*content*]
-		  [[multiTV? &tvName=`swipeboxmgboot` &display=`all`]]
+		  [[multiTV? &tvName=`swipeboxmg` &display=`all`]]
 		  </div>
-
+		  [+ColumnR2Content+]
 		  [+ColumnRContent+]
 			 </div>
             </section>

@@ -1,5 +1,5 @@
 /**
- * swipeboxmgboot
+ * swipeboxmg
  *
  * multiTV for swipebox mini Gallery for bootstrap themes
  *

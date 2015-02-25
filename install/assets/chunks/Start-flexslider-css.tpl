@@ -6,4 +6,4 @@
  * @category	chunk
  * @internal @modx_category MultiTV add-ons
  */
-<link rel="stylesheet" type="text/css" href="/assets/templates/start/js/flexslider/flexslider.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="assets/templates/start/js/flexslider/flexslider.css" media="screen" />

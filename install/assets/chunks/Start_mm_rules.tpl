@@ -43,4 +43,4 @@ mm_moveFieldsToTab('nivoslider', 'sliderTab', '', $news_tpl);
 // Start Page template -  $news_tpl = 'id of your StartPage template';
 $news_tpl = '7';
 mm_createTab('Gallery','galleryTab', '', $news_tpl, '', '800');
-mm_moveFieldsToTab('swipeboxmgboot', 'galleryTab', '', $news_tpl);
+mm_moveFieldsToTab('swipeboxmg', 'galleryTab', '', $news_tpl);

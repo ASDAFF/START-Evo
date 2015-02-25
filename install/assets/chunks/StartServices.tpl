@@ -15,14 +15,14 @@
         <div id="servicerow2" class="row">
                       <div class="col-md-3 col-xs-6">
                 <div class="center wow fadeInLeftBig" data-wow-offset="300">
-                    <p><a href="features/bootstrap-columns-plugin.html"><i class="fa fa-columns icon-lg"></i></a></p>
+                    <p><a href="#"><i class="fa fa-columns icon-lg"></i></a></p>
                     <h3>Bootstrap Columns Plugin</h3>
                 </div>
-            </div>  
+            </div>
 
                        <div class="col-md-3 col-xs-6">
                 <div class="center wow fadeInLeftBig" data-wow-offset="200">
-                    <p><a href="features/nivoslider.html"><i class="fa fa-sliders icon-lg"></i></a></p>
+                    <p><a href="#"><i class="fa fa-sliders icon-lg"></i></a></p>
                     <h3>Nivo Slider Multitv</h3>
 
                 </div>
@@ -30,13 +30,13 @@
 
             <div class="col-md-3 col-xs-6">
                 <div class="center wow fadeInRightBig" data-wow-offset="200">
-                    <p><a href="features/flex-slider.html"><i class="fa fa-sliders icon-lg"></i></a></p>
+                    <p><a href="#"><i class="fa fa-sliders icon-lg"></i></a></p>
                     <h3>Flex Slider Multitv</h3>
                 </div>
             </div>
             <div class="col-md-3 col-xs-6">
                 <div class="center wow fadeInRightBig" data-wow-offset="300">
-                    <p><a href="features/swipebox-mini-gallery.html"><i class="fa fa-picture-o icon-lg"></i></a></p>
+                    <p><a href="#"><i class="fa fa-picture-o icon-lg"></i></a></p>
                      <h3>SwipeBox Mini Gallery</h3>
                                  </div>
             </div>
@@ -57,7 +57,7 @@
         <div id="servicerow2" class="row">
                       <div class="col-md-3 col-xs-6">
                 <div class="center wow bounceInLeft" data-wow-offset="400">
-                    <p><a href="features/seo4evo.html"><i class="fa fa-line-chart icon-lg"></i></a></p>
+                    <p><a href="#"><i class="fa fa-line-chart icon-lg"></i></a></p>
                     <h3>Seo4Evo</h3>
 
                 </div>
