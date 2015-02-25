@@ -11,7 +11,7 @@
  * @internal @input_default
  * @internal @output_widget
  * @internal @output_widget_params
- * @internal @template_assignments StartPage,Duplicate of StartPage
+ * @internal @template_assignments *
  * @internal @lock_tv 0
  * @internal @installset base, sample
  */

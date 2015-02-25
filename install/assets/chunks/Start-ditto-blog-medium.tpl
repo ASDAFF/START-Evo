@@ -1,7 +1,7 @@
 /**
- * Start-ditto-blog1
+ * Start-ditto-blog-medium
  *
- * Start Ditto Blog Template type 1
+ * Start Ditto Blog Template with medium image
  *
  * @category	chunk
  * @internal @modx_category Start
