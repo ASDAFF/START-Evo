@@ -15,32 +15,30 @@ if ($modx->db->getValue($modx->db->select('count(id)', $modx->getFullTableName('
 }
 mm_widget_showimagetvs(); // Always give a preview of Image TVs
 
+// Start Page default template -  $Start_tpl = 'id of your StartPage template';
+$Start_tpl = '7';
+mm_createTab('Gallery','galleryTab', '', $Start_tpl, '', '800');
+mm_moveFieldsToTab('swipeboxmg', 'galleryTab', '', $Start_tpl);
+
+// Start Home flexslider template
+//  $HomeFlex_tpl = 'id of your StartHome template';
+$HomeFlex_tpl = '5';
+mm_createTab('Slider','sliderTab', '', $HomeFlex_tpl, '', '1000');
+mm_moveFieldsToTab('flexslider', 'sliderTab', '', $HomeFlex_tpl);
+
+// Start Home nivoslider template
+//  $HomeNivo_tpl = 'id of your StartHome template';
+$HomeNivo_tpl = '6';
+mm_createTab('Slider','sliderTab', '', $HomeNivo_tpl, '', '1000');
+mm_moveFieldsToTab('nivoslider', 'sliderTab', '', $HomeNivo_tpl);
+
 //Seo tab
-mm_createTab('Seo','Seo', '', $news_tpl, '', '600');
-mm_moveFieldsToTab('CustomTitle,MetaDescription,MetaKeywords,CanonicalUrl,Aliases,GoogleAuthor,RobotsIndex,RobotsFollow,sitemap_exclude,sitemap_changefreq,sitemap_priority', 'Seo', '', $news_tpl);
-if ($modx->db->getValue($modx->db->select('count(id)', $modx->getFullTableName('site_tmplvars'), "name='MetaKeywords'"))) {
-	mm_widget_tags('MetaKeywords',',');
-}
+mm_createTab('Seo','Seo', '', '', '', '600');
+mm_moveFieldsToTab('CustomTitle,MetaDescription,MetaKeywords,CanonicalUrl,Aliases,GoogleAuthor,RobotsIndex,RobotsFollow,sitemap_exclude,sitemap_changefreq,sitemap_priority', 'Seo', '', '');
+mm_widget_tags('MetaKeywords'); // Give blog tag editing capabilities to the 'MetaKeywords' TV
 mm_ddMaxLength('MetaDescription', '', '', 350);
 mm_ddMaxLength('CustomTitle', '', '', 70);
 
 //Start Template tab
-mm_createTab('Template','Template', '', $news_tpl, '', '800');
-mm_moveFieldsToTab('PageLayout,HideContent,StartThirdRow,CustomScript', 'Template', '', $news_tpl);
-
-// Start Home flexslider template
-//  $news_tpl = 'id of your StartHome template';
-$news_tpl = '5';
-mm_createTab('Slider','sliderTab', '', $news_tpl, '', '1000');
-mm_moveFieldsToTab('flexslider', 'sliderTab', '', $news_tpl);
-
-// Start Home nivoslider template
-//  $news_tpl = 'id of your StartHome template';
-$news_tpl = '6';
-mm_createTab('Slider','sliderTab', '', $news_tpl, '', '1000');
-mm_moveFieldsToTab('nivoslider', 'sliderTab', '', $news_tpl);
-
-// Start Page template -  $news_tpl = 'id of your StartPage template';
-$news_tpl = '7';
-mm_createTab('Gallery','galleryTab', '', $news_tpl, '', '800');
-mm_moveFieldsToTab('swipeboxmg', 'galleryTab', '', $news_tpl);
+mm_createTab('Template','Template', '', '', '', '800');
+mm_moveFieldsToTab('PageLayout,HideContent,StartThirdRow,CustomScript', 'Template', '', '');
