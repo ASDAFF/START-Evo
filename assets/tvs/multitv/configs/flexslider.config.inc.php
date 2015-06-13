@@ -25,5 +25,5 @@ $settings['fields'] = array(
 );
 $settings['templates'] = array(
     'outerTpl' => '<div class="flex-container"><div class="flexslider"><ul class="slides">[+wrapper+]</ul></div></div>',
-    'rowTpl' => '<li>[+link:ne=``:then=`<a href="[+link+]"><img src="[+image+]" alt="[+title+]" /></a>`:else=`<img src="[+image+]" alt="[+title+]" />`+]<div class="flex-caption"><h2>[+title+]</h2><p>[+legend+]</p></div></li>'
+    'rowTpl' => '<li>[+link:ne=``:then=`<a href="[+link+]"><img src="[!phpthumb? &input=`[+image+]` &options=`w=1920,h=550,zc=far`!]" class="img-responsive" alt="[+title+]" /></a>`:else=`<img src="[!phpthumb? &input=`[+image+]` &options=`w=1920,h=550,zc=far`!]" class="img-responsive" alt="[+title+]" />`+]<div class="flex-caption"><h2>[+title+]</h2><p>[+legend+]</p></div></li>'
 );

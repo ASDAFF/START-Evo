@@ -1,14 +1,14 @@
 /**
  * Start-news-sidebar-small
  *
- * sidebar ditto tpl with small thumbnails
+ * sidebar blog tpl with small thumbnails
  *
  * @category	chunk
- * @internal @modx_category Start
+ * @internal @modx_category Start Blog
  */
-<dl class="dl-horizontal padding-15">
-                        <dt><a href="[~[+id+]~]" title="[+title+]"><img class="thumbnail" src="[[phpthumb? &input=`[+Thumbnail+]` &options=`w=85,h=85,zc=TL`]]" alt="[+pagetitle+]" /></a></dt>
-                        <dd>
-                            <p><a href="[~[+id+]~]" title="[+title+]">[+title+]</a></p>
-                        </dd>
-                    </dl>
+<div class="col-sm-12 no-padding">
+                        <div class="col-sm-5 no-padding"><a href="[~[+id+]~]" title="[+title+]"><img class=" img-responsive img-rounded img-thumbnail" src="[!if? &is=`[+Thumbnail+]:!empty` &then=`[!phpthumb? &input=`[+Thumbnail+]` &options=`w=300,h=300,zc=TL`!]` &else=`[!phpthumb? &input=`assets/images/default/noimage.jpg` &options=`w=300,h=300,zc=TL`!]`!] " alt="[+pagetitle+]"></a></div>
+                        <div class="col-sm-7">
+                            <p class="padding-left"><a href="[~[+id+]~]" title="[+title+]">[+title+]</a></p>
+                        </div>
+                    </div>

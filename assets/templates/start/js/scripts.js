@@ -1,5 +1,63 @@
 jQuery(function($) {
+/* ---------------------------------------------------------------------- */
+/* Scroll to Top
+/* ---------------------------------------------------------------------- */
+// scroll-to-top button show and hide
+    jQuery(window).scroll(function(){
+        if (jQuery(this).scrollTop() > 50) {
+            jQuery('.scrollup').fadeIn();
+        } else {
+            jQuery('.scrollup').fadeOut();
+    }
+});
+// scroll-to-top animate
+jQuery('.scrollup').click(function(){
+    jQuery("html, body").animate({ scrollTop: 0 }, 800);
+        return false;
+    });
+});
+//start document ready function
 
+jQuery(document).ready(function() {
+
+// bs tooltip
+    $('[data-toggle="tooltip"]').tooltip();
+
+
+// fancybox
+	$("a.fancyboxthumb").fancybox({
+		'titlePosition'	: 'outer',
+		'transitionIn'	:	'elastic',
+		'transitionOut'	:	'elastic',
+		'speedIn'		:	600,
+		'speedOut'		:	200,
+		'overlayShow'	:	false
+});
+
+//Swipebox
+	$( '.swipeboxthumb' ).swipebox({
+useCSS : true,
+initialIndexOnArray: 0,
+hideBarsOnMobile : true,
+hideBarsDelay : 0,
+videoMaxWidth : 1140,
+beforeOpen: function(){} ,
+afterClose: function(){}
+});
+// sticky footer : https://github.com/philipwalton/solved-by-flexbox
+		(function() {
+			var collapseTrigger = document.getElementById("collapse-trigger")
+				, collapseableContent = document.getElementById("collapsable-content")
+				, isCollapsed = false
+					collapseTrigger.addEventListener("click", function() {
+				if (isCollapsed) {
+					collapseableContent.classList.remove("u-hidden")
+				} else {
+					collapseableContent.classList.add("u-hidden")
+				}
+					isCollapsed = !isCollapsed
+				}, false)
+ });
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
 if ($(".navbar").offset().top > 50) {
@@ -19,40 +77,9 @@ event.preventDefault();
 });
 });
 
-/* ---------------------------------------------------------------------- */
-/* Scroll to Top
-/* ---------------------------------------------------------------------- */
-// scroll-to-top button show and hide
-jQuery(document).ready(function(){
-    jQuery(window).scroll(function(){
-        if (jQuery(this).scrollTop() > 100) {
-            jQuery('.scrollup').fadeIn();
-        } else {
-            jQuery('.scrollup').fadeOut();
-    }
-});
-// scroll-to-top animate
-jQuery('.scrollup').click(function(){
-    jQuery("html, body").animate({ scrollTop: 0 }, 600);
-        return false;
-    });
-});
 
-});
-/**
- * @preserve
- * Project: Bootstrap Hover Dropdown
- * Author: Cameron Spear
- * Version: v2.0.11
- * Contributors: Mattia Larentis
- * Dependencies: Bootstrap's Dropdown plugin, jQuery
- * Description: A simple plugin to enable Bootstrap dropdowns to active on hover and provide a nice user experience.
- * License: MIT
- * Homepage: http://cameronspear.com/blog/bootstrap-dropdown-on-hover-plugin/
- */
-!function($,n,e){var o=$();$.fn.dropdownHover=function(e){return"ontouchstart"in document?this:(o=o.add(this.parent()),this.each(function(){function t(e){o.find(":focus").blur(),h.instantlyCloseOthers===!0&&o.removeClass("open"),n.clearTimeout(c),i.addClass("open"),r.trigger(a)}var r=$(this),i=r.parent(),d={delay:500,instantlyCloseOthers:!0},s={delay:$(this).data("delay"),instantlyCloseOthers:$(this).data("close-others")},a="show.bs.dropdown",u="hide.bs.dropdown",h=$.extend(!0,{},d,e,s),c;i.hover(function(n){return i.hasClass("open")||r.is(n.target)?void t(n):!0},function(){c=n.setTimeout(function(){i.removeClass("open"),r.trigger(u)},h.delay)}),r.hover(function(n){return i.hasClass("open")||i.is(n.target)?void t(n):!0}),i.find(".dropdown-submenu").each(function(){var e=$(this),o;e.hover(function(){n.clearTimeout(o),e.children(".dropdown-menu").show(),e.siblings().children(".dropdown-menu").hide()},function(){var t=e.children(".dropdown-menu");o=n.setTimeout(function(){t.hide()},h.delay)})})}))},$(document).ready(function(){$('[data-hover="dropdown"]').dropdownHover()})}(jQuery,this);
 
-/***wow animation  */
+/***wow scrolling animation  */
 var wow = new WOW(
   {
     boxClass:     'wow',      // animated element css class (default is wow)
@@ -63,3 +90,39 @@ var wow = new WOW(
   }
 );
 wow.init();
+
+
+// bs carousel
+$('.carousel').carousel({
+  interval: 0
+}),
+
+
+/* Owl Carousel*/
+
+  $("#owl-carousel").owlCarousel({
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+  	  lazyLoad : true,
+      items : 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+  }),
+
+
+  $("#related-carousel").owlCarousel({
+  	  lazyLoad : true,
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+      items : 3,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+  }),
+
+  $("#quote-carousel").owlCarousel({
+  	  lazyLoad : true,
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+      items : 1,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+  })
+/*end document ready funcion*/
+	})

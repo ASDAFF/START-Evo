@@ -4,38 +4,61 @@
  * Start Left Sidebar Template
  *
  * @category	chunk
- * @internal @modx_category start
+ * @internal @modx_category Start Bootstrap Columns
  */
 <!--Sidebar -->
 <aside class="left-sidebar white nopadding [+CLClass+]">
-		<h2>Start Left Sidebar</h2>
+		<h2>Left Sidebar</h2>
 <div class="widget">
-<div id="search"><a name="search"></a>[!AjaxSearch? &ajaxSearch=`1` &landingPage=`8` &moreResultsPage=`8` &addJscript=`0` &showIntro=`0` &ajaxMax=`5` &extract=`1`!]</div>	
-</div>		
-<div class="widget">
-<h3>Ready to START</h3>
-<i class="fa fa-play-circle fa-4x fa-fw sideicon"></i><p>Start your MODx responsive site in few minutes</p>
+<div id="search"><a name="search"></a>[!AjaxSearch? &ajaxSearch=`1` &tplInput=`Start-search-tplInput` &landingPage=`8` &moreResultsPage=`8` &addJscript=`0` &showIntro=`0` &ajaxMax=`5` &extract=`1`!]</div>	
 </div>
 <div class="widget">
-<h3>Responsive</h3>
-<i class="fa fa-mobile fa-4x fa-fw sideicon"></i><p>Responsive Bootstrap layout</p>
+<h2>Testimonials</h2>
+	{{Start-Quote-Carousel}}
 </div>
+
+	
 <div class="widget">
-<h3>Bootstrap Columns</h3>
-<i class="fa fa-columns fa-4x fa-fw sideicon"></i><p>Bootstrap Columns Plugin</p>
-</div>
-<div class="widget">
-<h3>Sliders</h3>
-<i class="fa fa-sliders fa-4x fa-fw sideicon"></i><p>NovoSlider and FlexSlider</p>
-</div>
-<div class="widget">
-<h3>SwipeBox Gallery</h3>
-<i class="fa fa-picture-o fa-4x fa-fw sideicon"></i><p>NivoSlider and FlexSlider</p>
-</div>
-<div class="widget">
-<h3>Seo4Evo</h3>
-<i class="fa fa-line-chart fa-4x fa-fw sideicon"></i><p>NovoSlider and FlexSlider</p>
+	{{Start-PhotoStream}}
 </div>
 	
+<div class="widget">
+               <!-- Tabs Widget -->
+                <div class="headline headline-md"><h2>Tabs Widget</h2></div>
+                <div class="margin-bottom-40">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#home-1">About</a></li>
+                        <li><a data-toggle="tab" href="#home-2">Features</a></li>
+                    </ul>                
+                    <div class="tab-content">
+                        <div id="home-1" class="tab-pane fade in active padding-10">
+                            <p>Vivamus imperdiet condimentum diam, eget placerat felis consectetur id. Donec eget orci metus, ac ac adipiscing nunc.</p> <p>Pellentesque fermentum, ante ac felis consectetur id. Donec eget orci metusvivamus imperdiet.</p>                        
+                        </div>
+                        <div id="home-2" class="tab-pane fade">
+                            <div class="row padding-10">
+                                <ul class="list-unstyled col-xs-6">
+                                    <li><a href="#">Bootstrap 3</a></li>
+                                    <li><a href="#">Flex Slider</a></li>
+                                    <li><a href="#">Nivo Slider</a></li>
+                                    <li><a href="#">Owl Carousel</a></li>
+                                    <li><a href="#">FancyBox</a></li>
+                                    <li><a href="#">Animate css</a></li>
+                                    <li><a href="#">Wow Scroll</a></li>
+                                </ul>                        
+                                <ul class="list-unstyled col-xs-6">
+                                    <li><a href="#">Bootstrap Columns</a></li>
+                                    <li><a href="#">Seo4Evo</a></li>
+                                    <li><a href="#">MultiTv</a></li>
+                                    <li><a href="#">PhpThumb</a></li>
+                                    <li><a href="#">If</a></li>
+                                    <li><a href="#">Ditto</a></li>
+                                </ul>                        
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+                <!-- End Tabs Widget -->
+</div>		
+
 </aside>
 	<!-- End Sidebar-->

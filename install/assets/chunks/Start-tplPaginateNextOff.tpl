@@ -1,7 +1,7 @@
 /**
  * Start-tplPaginateNextOff
  *
- * Bootstrap Pagination
+ * Bootstrap Pagination next page off tpl
  *
  * @category	chunk
  * @internal @modx_category Start Bootstrap Pagination

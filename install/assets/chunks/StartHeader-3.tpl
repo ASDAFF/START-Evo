@@ -1,28 +1,38 @@
 /**
- * StartHeader-2
+ * StartHeader-3
  *
- * Start template header (menu and logo) - type 3 Right Nav
+ * Start template header (navbar and logo) with Social Icons
  *
  * @category	chunk
- * @internal @modx_category Start
+ * @internal @modx_category start
  */
 <header class="navbar navbar-custom navbar-fixed-top white" role="banner">
-        <div class="container no-padding">
 
-            <div class="navbar-header no-padding">
+        <div class="container no-padding">   
+			<div class="col-md-6 col-xs-7">
+			<a class="brand" href="[(site_url)]"><img class=" img-responsive" src="assets/images/start-logo.png" alt="logo"></a>
+			</div>{{Start-TopSocialIcons}}
+</div>	
 
+     <div class="nav-rowbg"> 
+        <div class="container no-padding">            
+            <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-				<a class="brand" href="[(site_url)]"><img src="assets/images/start-logo.png" alt="[(site_name)]"></a>
+                
             </div>
-
-           <div class="padding-10 collapse navbar-collapse">
-				{{StartTopMenu-Right}}
-
+            <div class="collapse navbar-left navbar-collapse">
+						
+				{{StartTopMenu}}
+				
             </div>
+			
+
+			
+        </div>
 	</div>
     </header>

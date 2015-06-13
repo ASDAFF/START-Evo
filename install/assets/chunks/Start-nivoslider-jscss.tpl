@@ -4,14 +4,13 @@
  * <strong>2.0</strong> include js and css for nivoslider multitv
  *
  * @category	chunk
- * @internal @modx_category MultiTV add-ons
+ * @internal @modx_category Start Sliders
  */
-<link rel="stylesheet" type="text/css" href="assets/templates/start/js/nivoslider/nivo-slider.css" media="screen" />
-<!--nivo theme-->
-<link rel="stylesheet" href="assets/templates/start/js/nivoslider/themes/default/default.css" type="text/css" />
-   <script type="text/javascript" src="assets/templates/start/js/nivoslider/jquery.nivo.slider.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/templates/start/js/nivoslider/css/nivo-slider-custom.css" media="screen" />
+   <script type="text/javascript" src="assets/templates/start/js/nivoslider/jquery.nivo.slider.custom.js"></script>
     <script type="text/javascript">
    (function($) {
+	   
 $('#slider').nivoSlider({
     slices: 15,                     // For slice animations
     boxCols: 8,                     // For box animations

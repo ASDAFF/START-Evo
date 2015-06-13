@@ -6,4 +6,4 @@
  * @category	chunk
  * @internal @modx_category StartTopMenu
  */
-<li [+wf.classes+]><a href="[+wf.link+]" title="[+wf.title+]">[+wf.linktext+]</a>[+wf.wrapper+]</li>
+<li [+wf.classes+]><a href="[+wf.link+]" title="[+wf.title+]" [+wf.attributes+]>[+wf.linktext+]</a>[+wf.wrapper+]</li>

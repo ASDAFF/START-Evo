@@ -4,14 +4,16 @@
  * Start Right Sidebar Template
  *
  * @category	chunk
- * @internal @modx_category start
+ * @internal @modx_category Start Bootstrap Columns
  */
 <!--Sidebar -->
 <aside class="right-sidebar white nopadding [+CRClass+]">
-		<h2>Start Right Sidebar</h2>
+		<h2>Right Sidebar</h2>
 <div class="widget">	
-[[Ditto? &parents=`2` &display=`2` &total=`2` &removeChunk=`Comments` &tpl=`Start-news-sidebar`]]
-[[Ditto? &parents=`2` &display=`2` &tpl=`Start-news-sidebar-small` &paginate=`0` &extenders=`summary,dateFilter`]]
+[[Ditto? &parents=`2,15` &display=`4` &removeChunk=`Comments` &tpl=`Start-news-sidebar`]]
+</div>
+<div class="widget">
+	{{Start-PhotoStream}}
 </div>
 
 </aside>

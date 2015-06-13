@@ -1,56 +1,56 @@
 /**
  * StartPage
  *
- * Start template page
+ * Default template
  *
  * @category	template
- * @internal	@modx_category Start
+ * @internal	@modx_category start
  */
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 <head>
-	{{StartHead}}
-{{Start-swipeboxmg-css}}
+{{StartHead}}
 </head>
-<body>
+<body class="Site" itemscope itemtype="[*Schema_org_Cw*]">
 	{{StartHeader}}
-         <div class="row grey">
-      <div class="container">
-
-		  <div id="headliner" class="col-lg-12">
-			  <div class="col-lg-8"> <h1>[*pagetitle*]</h1></div> <div class="breadcrumb col-lg-4">[!Breadcrumbs? &amp;currentAsLink=`1` &amp;homeCrumbTitle=`<i class="fa fa-home"></i>`!]</div>
+      <div class="Site-content" itemscope itemType="http://schema.org/BlogPosting">
+		  <div id="headliner" class="row grey borderTop borderBottom">
+			  <div class="container">
+			  <div class="col-lg-8"> <h1 itemprop="headline">[*pagetitle*]</h1></div> <div class="breadcrumb col-lg-4">[!Breadcrumbs? &amp;currentAsLink=`1` &amp;homeCrumbTitle=`<i class="fa fa-home"></i>`!]</div>
 		  </div>
-			 </div>
-            </div>
-	         <section class="white">
-      <div class="container">
+			   </div>
+
+      <div class="container white">
 		  [+ColumnLContent+]
           [+ColumnL2Content+]
-		 <div class="[+CoClass+]">
+		 <div class="content [+CoClass+]">
+			 <section itemprop="articleBody">
 			[[if? &is=`[*Thumbnail*]:!empty` &then=`@TPL:Start-PostPic`]]
-		   [*content*]
-		  [[multiTV? &tvName=`swipeboxmg` &display=`all`]]
+			<h2>[*longtitle*]</h2>
+		    [*content*]
+			</section>
+			[[multiTV? &tvName=`youtube` &display=`all` &toPlaceholder=`video`]]
+		    [[multiTV? &tvName=`startgallery` &display=`all` &rowTpl=`Start-Gallery-row` &outerTpl=`Start-Gallery-outer`]]
+			[[if? &is=`[*parent*]:in:2` &then=`@TPL:Start-Comments`]]
+			[[if? &is=`[*parent*]:in:2` &then=`@TPL:Start-Related-Carousel`]] 
 		  </div>
 		  [+ColumnR2Content+]
 		  [+ColumnRContent+]
 			 </div>
-            </section>
-[*StartThirdRow*]
-	{{StartBottom}}
+	
+			 </div><!--end page content-->
+  <div class="Site-footer">
+{{StartBottom}}	
     <footer id="footer" class="blue">
         <div class="container">
             <div class="row">
 				{{StartFooter}}
             </div>
-        </div>
-    </footer>
+        </div>	
+    </footer> 
+ </div>
 <a class="scrollup" href="#">Scroll</a>
-    <script src="assets/templates/start/js/jquery.min.js"></script>
-    <script src="assets/templates/start/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/templates/start/js/jquery.easing.1.3.js"></script>
-    <script src="assets/templates/start/js/wow/wow.min.js"></script>
-    <script src="assets/templates/start/js/scripts.js"></script>
+{{Start-Footer-js}}
 [*CustomScript*]
-{{Start-swipeboxmg-js}}
 </body>
 </html>

@@ -1,18 +1,18 @@
 /**
  * StartServices
  *
- * Service row
+ * Service Icons row
  *
  * @category	chunk
- * @internal @modx_category Start
+ * @internal @modx_category Start Rows
  */
-<section id="services" class="blue">
+<section id="services" class="blue borderTop borderBottom">
         <div class="container">
             <div class="row">
-
+<h2 class="block-title block-title--special block-title--top-s text-center">Features</h2>
                 <div class="col-lg-12">
                     <div class="gap"></div>
-        <div id="servicerow2" class="row">
+        <div id="servicerow1" class="row">
                       <div class="col-md-3 col-xs-6">
                 <div class="center wow fadeInLeftBig" data-wow-offset="300">
                     <p><a href="#"><i class="fa fa-columns icon-lg"></i></a></p>
@@ -37,7 +37,7 @@
             <div class="col-md-3 col-xs-6">
                 <div class="center wow fadeInRightBig" data-wow-offset="300">
                     <p><a href="#"><i class="fa fa-picture-o icon-lg"></i></a></p>
-                     <h3>SwipeBox Mini Gallery</h3>
+                     <h3>FancyBox Mini Gallery</h3>
                                  </div>
             </div>
              <div class="col-md-2 col-xs-6">

@@ -1,17 +1,16 @@
 /**
  * StartFooter
  *
- * Start template footer
+ * Start Footer with Credits and Copyright
  *
  * @category	chunk
- * @internal @modx_category Start
+ * @internal @modx_category start
  */
 <div class="col-sm-6">
-	Copyright &copy; 2015 <a href="[(site_url)]">[(site_name)]</a> All Rights Reserved
-                </div>
-                <div class="col-sm-6">
-                    <ul class="pull-right">
-                    <li>Start (Beta 2.5) Template by <a href="http://www.tattoocms.it/">tattoocms.it</a></li>
-
-                    </ul>
-                </div>
+Copyright &copy; [(site_copyright)]
+</div>
+<div class="col-sm-6">
+ <ul class="pull-right">
+<li>Start (Beta 3.0) Template by <a href="http://www.tattoocms.it/">tattoocms.it</a></li>
+</ul>
+</div>

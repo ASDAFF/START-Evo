@@ -6,6 +6,6 @@
  * @category	chunk
  * @internal @modx_category StartTopMenu
  */
-<ul class="nav navbar-nav navbar-left">
+<ul class="nav navbar-nav">
     [+wf.wrapper+]
      </ul>

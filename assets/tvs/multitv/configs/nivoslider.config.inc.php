@@ -25,8 +25,8 @@ $settings['fields'] = array(
     )
 );
 $settings['templates'] = array(
-    'outerTpl' => '<div class="slider-wrapper theme-default">
+    'outerTpl' => '<div class="slider-wrapper theme-light">
             <div id="slider" class="nivoSlider">[+wrapper+]</div></div>',
-    'rowTpl' => '[+link:ne=``:then=`<a href="[+link+]"><img src="[+image+]" data-thumb="[+image+]" [+transition:ne=``:then=`data-transition="[+transition+]"`:else=``+] alt="[+caption+]" title="[+caption+]" /></a>`:else=`<img src="[+image+]" data-thumb="[+image+]" [+transition:ne=``:then=`data-transition="[+transition+]"`:else=``+] alt="[+caption+]" title="[+caption+]" />`+]
+    'rowTpl' => '[+link:ne=``:then=`<a href="[+link+]"><img src="[!phpthumb? &input=`[+image+]` &options=`w=1920,h=550,zc=far`!]" data-thumb="[+image+]" [+transition:ne=``:then=`data-transition="[+transition+]"`:else=``+] alt="[+caption+]" title="[+caption+]" /></a>`:else=`<img src="[!phpthumb? &input=`[+image+]` &options=`w=1920,h=550,zc=far`!]" data-thumb="[+image+]" [+transition:ne=``:then=`data-transition="[+transition+]"`:else=``+] alt="[+caption+]" title="[+caption+]" />`+]
     '
 );

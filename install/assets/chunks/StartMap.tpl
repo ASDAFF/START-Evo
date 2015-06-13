@@ -1,10 +1,10 @@
 /**
  * StartMap
  *
- * Google Map chunk
+ * Google Map Row
  *
  * @category	chunk
- * @internal @modx_category Start
+ * @internal @modx_category Start Rows
  */
 <div class="row blue">
 

@@ -1,0 +1,152 @@
+/*
+ * jQuery Nivo Slider v3.1
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	min-width:500px;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width:none;
+}
+.nivo-main-image {
+	display:block !important;
+	position:relative !important; 
+	width:100% !important;
+	height:auto;
+}
+.nivoSlider a {
+	border:0;
+	display:block;
+}
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	top:0;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+	overflow:hidden;
+}
+.nivo-box img { display:block; }
+
+.nivo-controlNav {
+	text-align:center;
+	padding: 20px 0;
+}
+.nivo-controlNav a {
+	display:inline-block;
+	text-indent:-9999px;
+	width:20px;
+	height:20px;
+	background:url(../images/bullets.png) no-repeat;
+	position:relative;
+	cursor:pointer;
+	z-index:19;
+	transition:none;
+}
+.nivo-controlNav a:hover, .nivo-controlNav a.active {
+	background-position:0 100%;
+}
+.nivo-directionNav a {
+	opacity:0.4;
+	display:inline-block;
+	-webkit-transition:all 300ms;
+	-moz-transition:all 300ms;
+ 	-o-transition:all 300ms;
+ 	transition:all 300ms;
+	width:50px;
+	height:78px;
+	background:url(../images/arrows.png);
+	position:absolute;
+	top:44%;
+	top:calc(50% - 39px); /* CSS3, you're so goooood */
+	text-indent:-9999px;
+	border:0;
+	z-index:9;
+	cursor:pointer;
+}
+.nivoSlider:hover .nivo-directionNav a {opacity:0.8}
+a.nivo-prevNav {left:0}
+a.nivo-nextNav{background-position:100% 0;right:0px}
+.nivo-controlNav.nivo-thumbs-enabled {width:100%}
+.nivo-controlNav.nivo-thumbs-enabled a {
+	width:auto;
+	height:auto;
+	background:none;
+	margin-bottom:5px;
+}
+.nivo-controlNav.nivo-thumbs-enabled img {
+	display:block;
+	width:120px;
+	height:auto;
+}
+
+.miniContainer:after {
+	content:"";
+	position:absolute; 
+	bottom:-16px;
+	left:50%;
+	margin-left:-10px;
+	border-left:10px solid transparent; 
+	border-right:10px solid transparent; 
+	border-top:10px solid #499bea;
+}
+/* Caption styles */
+.nivo-caption {
+   font-size: 2.4em;
+	position:absolute;
+	left:15%;
+	top:40%;
+	background:#499bea;
+	color:#fff;
+	width:auto;
+	z-index:8;
+	padding: 5px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
