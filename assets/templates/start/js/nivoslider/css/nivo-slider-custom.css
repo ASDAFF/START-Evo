@@ -151,3 +151,13 @@ a.nivo-nextNav{background-position:100% 0;right:0px}
 .nivo-html-caption {
     display:none;
 }
+/*Nivo*/
+@media screen and (max-width: 1026px) {
+  .nivo-caption {	font-size: 1.2em; line-height: 0.8 em;}
+}
+@media screen and (max-width: 860px) {
+  .nivo-caption {	font-size: 1.0em; line-height: 0.8 em;}
+}
+@media screen and (max-width: 460px) {
+  .nivo-caption { display:none;}
+}
