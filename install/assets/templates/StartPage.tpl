@@ -11,12 +11,12 @@
 <head>
 {{StartHead}}
 </head>
-<body class="Site" itemscope itemtype="[*Schema_org_Cw*]">
+<body class="Site">
 	{{StartHeader}}
-      <div class="Site-content" itemscope itemType="http://schema.org/BlogPosting">
+      <div class="Site-content">
 		  <div id="headliner" class="row grey borderTop borderBottom">
 			  <div class="container">
-			  <div class="col-lg-8"> <h1 itemprop="headline">[*pagetitle*]</h1></div> <div class="breadcrumb col-lg-4">[!Breadcrumbs? &amp;currentAsLink=`1` &amp;homeCrumbTitle=`<i class="fa fa-home"></i>`!]</div>
+			  <div class="col-lg-8"> <h1>[*pagetitle*]</h1></div> <div class="breadcrumb col-lg-4">[!Breadcrumbs? &amp;currentAsLink=`1` &amp;homeCrumbTitle=`<i class="fa fa-home"></i>`!]</div>
 		  </div>
 			   </div>
 
@@ -32,7 +32,6 @@
 			[[multiTV? &tvName=`youtube` &display=`all` &toPlaceholder=`video`]]
 		    [[multiTV? &tvName=`startgallery` &display=`all` &rowTpl=`Start-Gallery-row` &outerTpl=`Start-Gallery-outer`]]
 			[[if? &is=`[*parent*]:in:2` &then=`@TPL:Start-Comments`]]
-			[[if? &is=`[*parent*]:in:2` &then=`@TPL:Start-Related-Carousel`]] 
 		  </div>
 		  [+ColumnR2Content+]
 		  [+ColumnRContent+]

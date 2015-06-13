@@ -12,7 +12,7 @@
 {{StartHead}}
 {{Start-nivoslider-css}}
 </head>
-<body class="Site" itemtype="[*Schema_org_Cw*]">
+<body class="Site">
 	{{StartHeader}}
 			 <div class="Site-content">
 				<div class="white">
@@ -22,7 +22,7 @@
       <div class="container no-padding">
         [+ColumnLContent+]
 		[+ColumnL2Content+]
-        <div class="[+CoClass+]" itemscope itemType="http://schema.org/BlogPosting">
+        <div class="[+CoClass+]">
 			[[if? &is=`[*HideContent*]:is:yes` &then=`` &else=`@TPL:StartHomeContent`]]
 		  </div>
 		  [+ColumnR2Content+]

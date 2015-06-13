@@ -58,24 +58,7 @@ afterClose: function(){}
 					isCollapsed = !isCollapsed
 				}, false)
  });
-//jQuery to collapse the navbar on scroll
-$(window).scroll(function() {
-if ($(".navbar").offset().top > 50) {
-$(".navbar-fixed-top").addClass("top-nav-collapse");
-} else {
-$(".navbar-fixed-top").removeClass("top-nav-collapse");
-}
-});
-//jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-$('a.page-scroll').bind('click', function(event) {
-var $anchor = $(this);
-$('html, body').stop().animate({
-scrollTop: $($anchor.attr('href')).offset().top
-}, 1500, 'easeInOutExpo');
-event.preventDefault();
-});
-});
+
 
 
 
@@ -108,14 +91,6 @@ $('.carousel').carousel({
       itemsDesktopSmall : [979,3]
   }),
 
-
-  $("#related-carousel").owlCarousel({
-  	  lazyLoad : true,
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
-      items : 3,
-      itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3]
-  }),
 
   $("#quote-carousel").owlCarousel({
   	  lazyLoad : true,

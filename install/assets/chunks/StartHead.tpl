@@ -11,9 +11,8 @@
 <link href="assets/templates/start/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="assets/templates/start/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 <link href="assets/templates/start/css/main.css" rel="stylesheet">
-<link href="assets/templates/start/js/smartmenu/addons/bootstrap/jquery.smartmenus.bootstrap.css" rel="stylesheet">
 <link href="assets/templates/start/css/animate.min.css" rel="stylesheet">
-<link href="assets/templates/start/js/fancybox/jquery.fancybox.css" type="text/css" media="screen" rel="stylesheet">
+<link href="assets/templates/start/js/fancybox2/jquery.fancybox.css" type="text/css" media="screen" rel="stylesheet">
 <link href="assets/templates/start/js/swipebox/swipebox.css" type="text/css" media="screen" rel="stylesheet">
 <link href="assets/templates/start/js/owlcarousel/owl.carousel.css" rel="stylesheet">
 <link href="assets/templates/start/js/owlcarousel/owl.theme.css" rel="stylesheet">

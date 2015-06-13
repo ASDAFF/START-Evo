@@ -6,6 +6,6 @@
  * @category	chunk
  * @internal @modx_category StartTopMenu
  */
-<ul class="dropdown-menu dropdown-arrow-left">
+<ul class="dropdown-menu">
   [+wf.wrapper+]
 </ul>
