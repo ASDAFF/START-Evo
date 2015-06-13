@@ -599,7 +599,8 @@ div > div.flexslider > .flex-control-paging li a.flex-active {
 }
 
 /* Caption style */
-
+.flexslider {
+  margin-top: 25px!important;}
 .flex-caption {
 	font-family: 'Dosis', sans-serif;
 	font-weight:300;
