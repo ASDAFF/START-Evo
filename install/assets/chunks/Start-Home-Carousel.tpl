@@ -6,9 +6,9 @@
  * @category	chunk
  * @internal @modx_category Start Rows
  */
-<section id="products" class=" no-padding grey borderBottom">
-            <div class="row">
- <div class="container no-padding">	 
+<div id="products" class=" no-padding grey borderBottom">
+
+ <div class="container">	 
                     <div class="margin-bottom-5"></div>
 					<div class="owl-carousel-style1">
 					<!--navigation--> 
@@ -23,8 +23,8 @@
 [[Ditto? &parents=`15` &display=`all` &removeChunk=`Comments` &tpl=`Start-HomeCarouselTpl` &paginate=`0` &extenders=`summary,dateFilter`]]   
              </div>
 
-                </div>
+
 		  
             </div>
         </div>
-    </section>
+    </div>
