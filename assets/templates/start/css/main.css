@@ -309,10 +309,21 @@ color:#FFFFFF;
 
 /*#*/
 .brand img{
-margin: 0px 10px 0px 30px;
-height: 53px;
+margin: 0px 10px 0px 10px;
 
 }
+/* resize logo for ipad portrait*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    .brand img{
+margin: 5px 10px 0px 0px;
+width: 140px;
+
+}
+}
+
 /*navbar styles*/
 .navbar-toggle{background-color:#499bea; border-color:#499bea; color:#FFFFFF;}
 .navbar-toggle .icon-bar {
@@ -434,7 +445,11 @@ box-shadow:         0px 3px 2px 0px rgba(0, 0, 0, 0.10);
 .navbar-custom .navbar-collapse,
 .navbar-custom .navbar-form {
   border-top: 0;
-
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.navbar-custom .navbar-collapse {
+    max-height: 100%;
 }
 
 /*Homepage*/
