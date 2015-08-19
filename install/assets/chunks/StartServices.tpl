@@ -16,7 +16,7 @@
                       <div class="col-md-3 col-xs-6">
                 <div class="center wow fadeInLeftBig" data-wow-offset="300">
                     <p><a href="#"><i class="fa fa-columns icon-lg"></i></a></p>
-                    <h3>Bootstrap Columns Plugin</h3>
+                    <h3>Bootstrap Columns</h3>
                 </div>
             </div>
 

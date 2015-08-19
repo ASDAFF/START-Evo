@@ -37,7 +37,7 @@ mm_moveFieldsToTab('youtube', 'videoTab', '', '');
 
 //Seo tab
 mm_createTab('Seo','Seo', '', '', '', '600');
-mm_moveFieldsToTab('CustomTitle,MetaDescription,MetaKeywords,CanonicalUrl,Schema_org_Cw,Aliases,GoogleAuthor,RobotsIndex,RobotsFollow,sitemap_exclude,sitemap_changefreq,sitemap_priority', 'Seo', '', '');
+mm_moveFieldsToTab('CustomTitle,MetaDescription,MetaKeywords,CanonicalUrl,Aliases,GoogleAuthor,RobotsIndex,RobotsFollow,sitemap_exclude,sitemap_changefreq,sitemap_priority', 'Seo', '', '');
 mm_widget_tags('MetaKeywords'); // Give blog tag editing capabilities to the 'MetaKeywords' TV
 mm_ddMaxLength('MetaDescription', '', '', 350);
 mm_ddMaxLength('CustomTitle', '', '', 70);

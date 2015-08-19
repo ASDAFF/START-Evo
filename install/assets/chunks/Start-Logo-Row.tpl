@@ -11,7 +11,7 @@
             <div class="row">
  <div class="container  no-padding">
                 <div class="col-lg-12">
-					<h2 class="text-center colorgrey bigtitle wow fadeInUpBig" data-wow-offset="200">Powered by <br/>Bootstrap 3.3.4</h2>
+					<h2 class="text-center colorgrey bigtitle wow fadeInUpBig" data-wow-offset="200">Powered by <br/>Bootstrap 3.3.5</h2>
                     <div class="gap"></div>
         <div class="row">
 			

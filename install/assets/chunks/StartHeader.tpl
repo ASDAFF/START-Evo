@@ -7,7 +7,7 @@
  * @internal @modx_category start
  */
 <header class="navbar navbar-custom navbar-fixed-top white" role="banner">
-        <div class="container no-padding">
+        <div class="container">
 
             <div class="navbar-header no-padding">
 
