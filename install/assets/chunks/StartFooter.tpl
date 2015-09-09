@@ -11,6 +11,6 @@ Copyright &copy; [(site_copyright)]
 </div>
 <div class="col-sm-6">
  <ul class="pull-right">
-<li>Start (Beta 3.1) Template by <a href="http://www.tattoocms.it/">tattoocms.it</a></li>
+<li>Start (RC 1.0) Template by <a href="http://www.tattoocms.it/">tattoocms.it</a></li>
 </ul>
 </div>
