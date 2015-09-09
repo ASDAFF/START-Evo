@@ -325,7 +325,7 @@ width: 140px;
 }
 
 /*navbar styles*/
-.navbar-toggle{background-color:#499bea; border-color:#499bea; color:#FFFFFF;}
+.navbar-toggle{background-color:#499bea; border-color:#499bea; color:#FFFFFF; margin-right:20px;}
 .navbar-toggle .icon-bar {
   display: block;
   width: 22px;
@@ -355,11 +355,11 @@ box-shadow:         0px 3px 2px 0px rgba(0, 0, 0, 0.10);
   line-height: 53px;
   color: #fff;
   height:53px;
-   margin-left:10px;
+   margin-left:0px;
 }
 .navbar-custom .navbar-nav {
   margin-top: 10px;
- margin-left:10px;
+ margin-left:-5px;
 }
 .navbar-custom .navbar-nav > li > a {
  font-family: 'Dosis', sans-serif;
@@ -450,7 +450,9 @@ box-shadow:         0px 3px 2px 0px rgba(0, 0, 0, 0.10);
 }
 .navbar-custom .navbar-collapse {
     max-height: 100%;
+padding-right3px;
 }
+.navbar-collapse.collapse.in > ul.nav.navbar-nav > li.open > ul.dropdown-menu {box-shadow:none;}
 
 /*Homepage*/
 /*Flexslider*/
