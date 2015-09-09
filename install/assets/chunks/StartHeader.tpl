@@ -9,7 +9,7 @@
 <header class="navbar navbar-custom navbar-fixed-top white" role="banner">
         <div class="container">
 
-            <div class="navbar-header no-padding">
+            <div class="navbar-header">
 
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
