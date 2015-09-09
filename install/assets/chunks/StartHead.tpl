@@ -21,7 +21,7 @@
 <script src="assets/templates/start/js/html5shiv.js"></script>
 <script src="assets/templates/start/js/respond.min.js"></script>
 <![endif]-->
-<link rel="icon" href="[(site_url)]/favicon.gif" />
+<link rel="icon" href="assets/templates/start/images/ico/favicon.ico" />
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/templates/start/images/ico/apple-touch-icon-144-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/templates/start/images/ico/apple-touch-icon-114-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/templates/start/images/ico/apple-touch-icon-72-precomposed.png">
