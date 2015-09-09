@@ -13,5 +13,5 @@
 <script src="assets/templates/start/js/wow/wow.min.js"></script>
 <script src="assets/templates/start/js/owlcarousel/owl.carousel.min.js"></script>
 <script src="assets/templates/start/js/swipebox/jquery.swipebox.min.js"></script>
-<script src="assets/templates/start/js/fancybox2/jquery.fancybox.pack.js"></script>
+<script src="assets/templates/start/js/fancybox/jquery.fancybox.pack.js"></script>
 <script src="assets/templates/start/js/scripts.js"></script>
