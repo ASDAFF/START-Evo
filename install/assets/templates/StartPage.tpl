@@ -16,7 +16,7 @@
       <div class="Site-content">
 		  <div id="headliner" class="row grey borderTop borderBottom">
 			  <div class="container">
-			  <div class="col-lg-8"> <h1>[*pagetitle*]</h1></div> <div class="breadcrumb col-lg-4">[!Breadcrumbs? &amp;currentAsLink=`1` &amp;homeCrumbTitle=`<i class="fa fa-home"></i>`!]</div>
+			  <div class="col-lg-8"> <h1>[*pagetitle*]</h1></div> <div class="breadcrumb hidden-xs col-lg-4">[!Breadcrumbs? &amp;currentAsLink=`1` &amp;homeCrumbTitle=`<i class="fa fa-home"></i>`!]</div>
 		  </div>
 			   </div>
 
