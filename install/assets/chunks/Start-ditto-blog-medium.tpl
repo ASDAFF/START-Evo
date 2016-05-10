@@ -9,7 +9,7 @@
 <div class="row blog-post">
 <div class="col-md-7">
    <div class="img-overlay-wrap">
-	   						<img class=" img-responsive img-rounded img-thumbnail" src="[!if? &is=`[+Thumbnail+]:!empty` &then=`[!phpthumb? &input=`[+Thumbnail+]` &options=`w=769,h=395,zc=TL`!]` &else=`[!phpthumb? &input=`assets/images/default/noimage.jpg` &options=`w=769,h=395,zc=TL`!]`!] " alt="[+pagetitle+]">
+	   						<img class=" img-responsive img-rounded img-thumbnail" src="[[if? &is=`[+Thumbnail+]:!empty` &then=`[[phpthumb? &input=`[+Thumbnail+]` &options=`w=769,h=395,zc=TL`]]` &else=`[[phpthumb? &input=`assets/images/default/noimage.jpg` &options=`w=769,h=395,zc=TL`]]`]] " alt="[+pagetitle+]">
                         <div class="overlay">
                             <div class="img-overlay-inner text-center">
                                 <h3>[+title+]</h3>
@@ -25,9 +25,9 @@
 <span><i class="fa fa-calendar"></i> [+date+]</span>
 <span><i class="fa fa-user"></i> [+author+]</span>
 <span><i class="fa fa-comment"></i> <a  href="[~[+id+]~]#commentsAnchor">Comments
-  ([!Jot?&docid=`[+id+]`&action=`count-comments`!])</a></span>
+  ([[Jot?&docid=`[+id+]`&action=`count-comments`]])</a></span>
                             </div>
-<p>[!DynamicDescription? &descriptionTV=`MetaDescription` &id=`[+id+]` &maxWordCount=`20`!]</p>
+<p>[[DynamicDescription? &descriptionTV=`MetaDescription` &id=`[+id+]` &maxWordCount=`20`]]</p>
 <a class="btn btn-default" href="[~[+id+]~]"><i class="fa fa-share"></i> Read More
 </a>
 </div>
